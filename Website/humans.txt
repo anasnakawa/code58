@@ -1,0 +1,9 @@
+/* Code58 theme was designed by Ansa Nakawa(@anasnakawa) anasnakawa.com , and developed by Mohammad Saeed(@carbon187) and Anas Nakawa(@anasnakawa)anasnakawa.com */
+/*We used Foundation. Foundation was made by ZURB
+/* zurb.com */
+/* humanstxt.org */
+
+/* SITE */
+  Standards: HTML5, CSS3, SCSS
+  Components: jQuery
+  Software: Sublinme Text2, Photoshop, Git
