@@ -1,0 +1,29 @@
+$border-color: #3498db;
+.border-generic{border: 2px solid $border-color;}
+$price-table-student-light-color: #bdc3c7;
+$price-table-student-dark-color: #a6aeb3;
+$price-table-standard-light-color: #3498db;
+$price-table-standard-dark-color: #2980b9;
+$price-table-professional-light-color: #f1c40f;
+$price-table-professional-dark-color: #e2b501;
+$price-table-premium-light-color: #34495e;
+$price-table-premium-dark-color: #2c3e50;
+
+.pricing-table .cta-button{background-color: #fff;}
+.pricing-table .title{color:#fff;}
+
+.student.pricing-table{border-color: $price-table-student-light-color;}
+.student.pricing-table .title{background-color: $price-table-student-light-color;}
+.student.pricing-table .price{background-color: $price-table-student-dark-color;}
+
+.standard.pricing-table{border-color: $price-table-standard-light-color;}
+.standard.pricing-table .title{background-color: $price-table-standard-light-color;}
+.standard.pricing-table .price{background-color: $price-table-standard-dark-color;}
+
+.professional.pricing-table{border-color: $price-table-professional-light-color;}
+.professional.pricing-table .title{background-color: $price-table-professional-light-color;}
+.professional.pricing-table .price{background-color: $price-table-professional-dark-color;}
+
+.premium.pricing-table{border-color: $price-table-premium-light-color;}
+.premium.pricing-table .title{background-color: $price-table-premium-light-color;}
+.premium.pricing-table .price{background-color: $price-table-premium-dark-color;}

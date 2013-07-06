@@ -4256,3 +4256,51 @@ a.th {
     max-width: 500px; }
   .f-dropdown.large {
     max-width: 800px; }
+	
+	
+	
+.border-generic {
+  border: 2px solid #3498db; }
+
+.pricing-table .cta-button {
+  background-color: #fff; }
+  
+  .pricing-table .title,
+.pricing-table .price {
+  color: #fff; }
+
+.student.pricing-table {
+  border-color: #bdc3c7; }
+
+.student.pricing-table .title {
+  background-color: #bdc3c7; }
+
+.student.pricing-table .price {
+  background-color: #a6aeb3; }
+
+.standard.pricing-table {
+  border-color: #3498db; }
+
+.standard.pricing-table .title {
+  background-color: #3498db; }
+
+.standard.pricing-table .price {
+  background-color: #2980b9; }
+
+.professional.pricing-table {
+  border-color: #f1c40f; }
+
+.professional.pricing-table .title {
+  background-color: #f1c40f; }
+
+.professional.pricing-table .price {
+  background-color: #e2b501; }
+
+.premium.pricing-table {
+  border-color: #34495e; }
+
+.premium.pricing-table .title {
+  background-color: #34495e; }
+
+.premium.pricing-table .price {
+  background-color: #2c3e50; }
