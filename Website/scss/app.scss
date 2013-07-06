@@ -10,20 +10,41 @@ $price-table-premium-light-color: #34495e;
 $price-table-premium-dark-color: #2c3e50;
 
 .pricing-table .cta-button{background-color: #fff;}
-.pricing-table .title{color:#fff;}
+.pricing-table .title,
+.pricing-table .price{color:#fff;}
+button, .button{
+	border: none;
+	box-shadow: none;
+	border-radius: 5px;	
+}
 
 .student.pricing-table{border-color: $price-table-student-light-color;}
-.student.pricing-table .title{background-color: $price-table-student-light-color;}
+.student.pricing-table .title,
+.student .button{background-color: $price-table-student-light-color;}
 .student.pricing-table .price{background-color: $price-table-student-dark-color;}
 
+
 .standard.pricing-table{border-color: $price-table-standard-light-color;}
-.standard.pricing-table .title{background-color: $price-table-standard-light-color;}
+.standard.pricing-table .title,
+.standard .button{background-color: $price-table-standard-light-color;}
 .standard.pricing-table .price{background-color: $price-table-standard-dark-color;}
 
 .professional.pricing-table{border-color: $price-table-professional-light-color;}
-.professional.pricing-table .title{background-color: $price-table-professional-light-color;}
+.professional.pricing-table .title,
+.professional .button{background-color: $price-table-professional-light-color;}
 .professional.pricing-table .price{background-color: $price-table-professional-dark-color;}
 
 .premium.pricing-table{border-color: $price-table-premium-light-color;}
-.premium.pricing-table .title{background-color: $price-table-premium-light-color;}
+.premium.pricing-table .title,
+.premium .button{background-color: $price-table-premium-light-color;}
 .premium.pricing-table .price{background-color: $price-table-premium-dark-color;}
+
+$footer-copyright-color: #2c3e50;
+.dark-row{
+	backgroung: $footer-copyright-color;
+  	line-height: 65px;
+	color:#95a5a6;
+ }
+ .dark-row a{color:#95a5a6;}
+ .light-row{background: #34495e;
+ min-height: 170px;}
