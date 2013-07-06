@@ -1,3 +1,15 @@
+.bg-primary{background-color: #3498db;}
+.border-color-primary{border-color: #3498db;}
+.color-primary{color: #3498db;}
+.bg-dark-primary{background-color: #2c3e50;}
+.bg-light-primary{background-color: #34495e;}
+
+@mixin rounded($radius: 10px){border-radius: $radius;}
+@mixin rounded-border($tl: 10px, $tr: 10px, $br:10px, $bl: 10px){
+ border-radius: $tl $tr $br $bl;
+}
+
+
 $border-color: #3498db;
 .border-generic{border: 2px solid $border-color;}
 $price-table-student-light-color: #bdc3c7;
@@ -9,6 +21,9 @@ $price-table-professional-dark-color: #e2b501;
 $price-table-premium-light-color: #34495e;
 $price-table-premium-dark-color: #2c3e50;
 
+.pricing-table {@include rounded}
+.pricing-table .title{@include rounded-border(10px, 10px, 0, 0)}
+.pricing-table .cta-button{@include rounded-border(0, 0, 10px, 10px)}
 .pricing-table .cta-button{background-color: #fff;}
 .pricing-table .title,
 .pricing-table .price{color:#fff;}
@@ -39,12 +54,13 @@ button, .button{
 .premium .button{background-color: $price-table-premium-light-color;}
 .premium.pricing-table .price{background-color: $price-table-premium-dark-color;}
 
-$footer-copyright-color: #2c3e50;
+$footer-dark-color: #2c3e50;
+$footer-light-color: #34495e;
 .dark-row{
-	backgroung: $footer-copyright-color;
+	background: $footer-dark-color;
   	line-height: 65px;
 	color:#95a5a6;
  }
  .dark-row a{color:#95a5a6;}
- .light-row{background: #34495e;
+ .light-row{background: $footer-light-color;
  min-height: 170px;}

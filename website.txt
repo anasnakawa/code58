@@ -1,0 +1,23 @@
+font
+footer
+folder structure
+
+opensans 36 light
+20
+full width or boxed is a class add to the html
+
+primary bg
+pimary border color
+primary color
+primary dark bg
+primary transparent bg
+
+
+components
+foundation
+scss : app.scss
+2 css file
+foundation + normalize
+app.css
+
+
