@@ -1,3 +1,19 @@
+html, body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  color: #bdc3c7; }
+
+h2 {
+  font-size: 36px; }
+
+p {
+  font-size: 32px; }
+
+.smalltext {
+  font-size: 20px; }
+
+.largtext, .pricing-table .largtext {
+  font-size: 28px; }
+
 .bg-primary {
   background-color: #3498db; }
 
@@ -16,13 +32,15 @@
 .border-generic {
   border: 2px solid #3498db; }
 
+.pricing-table .price {
+  line-height: 150px; }
+
 .pricing-table {
   border-radius: 10px; }
 
 .pricing-table .title {
-  border-radius: 10px 10px 0 0;
-  line-height: 70px;
-   }
+  border-radius: 10px 10px 0 0; }
+
 .pricing-table .cta-button {
   border-radius: 0 0 10px 10px; }
 
@@ -89,3 +107,15 @@ button, .button {
 .light-row {
   background: #34495e;
   min-height: 170px; }
+
+.margin-bottom-medium {
+  margin-bottom: 40px; }
+
+.margin-bottom-big {
+  margin-bottom: 90px; }
+
+.margin-bottom-large {
+  margin-bottom: 75px; }
+
+.margin-botom-small {
+  margin-bottom: 25px; }
