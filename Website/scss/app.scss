@@ -9,9 +9,9 @@
  border-radius: $tl $tr $br $bl;
 }
 
-
 $border-color: #3498db;
 .border-generic{border: 2px solid $border-color;}
+.pricing-table .price{line-height:150px;}
 $price-table-student-light-color: #bdc3c7;
 $price-table-student-dark-color: #a6aeb3;
 $price-table-standard-light-color: #3498db;
