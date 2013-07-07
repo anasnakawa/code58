@@ -7,6 +7,9 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
+# IDE project files
+.project
+
 # Node js
 node_modules
 
