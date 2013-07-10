@@ -1,0 +1,50 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// This includes normalize
+@import "../components/scss/normalize";
+
+// This includes all of the foundation global elements that are needed to work with any of the other files.
+@import "../components/scss/foundation/variables";
+
+// Foundation Components
+@import
+
+  "../components/scss/foundation/components/global",
+  "../components/scss/foundation/components/grid",
+  //"../components/scss/foundation/components/visibility",
+  //"../components/scss/foundation/components/block-grid",
+  "../components/scss/foundation/components/type",
+  //"../components/scss/foundation/components/buttons",
+  //"../components/scss/foundation/components/forms",
+  //"../components/scss/foundation/components/custom-forms",
+  //"../components/scss/foundation/components/button-groups",
+  //"../components/scss/foundation/components/dropdown-buttons",
+  //"../components/scss/foundation/components/split-buttons",
+  //"../components/scss/foundation/components/flex-video",
+  //"../components/scss/foundation/components/section",
+  //"../components/scss/foundation/components/top-bar",
+  //"../components/scss/foundation/components/orbit",
+  //"../components/scss/foundation/components/reveal",
+  //"../components/scss/foundation/components/joyride",
+  //"../components/scss/foundation/components/clearing",
+  //"../components/scss/foundation/components/alert-boxes",
+  //"../components/scss/foundation/components/breadcrumbs",
+  //"../components/scss/foundation/components/keystrokes",
+  //"../components/scss/foundation/components/labels",
+  //"../components/scss/foundation/components/inline-lists",
+  //"../components/scss/foundation/components/pagination",
+  //"../components/scss/foundation/components/panels",
+  "../components/scss/foundation/components/pricing-tables";
+  //"../components/scss/foundation/components/progress-bars",
+  //"../components/scss/foundation/components/side-nav",
+  //"../components/scss/foundation/components/sub-nav",
+  //"../components/scss/foundation/components/switch",
+  //"../components/scss/foundation/components/magellan",
+  //"../components/scss/foundation/components/tables",
+  //"../components/scss/foundation/components/thumbs",
+  //"../components/scss/foundation/components/tooltips",
+  //"../components/scss/foundation/components/dropdown";
+
+// This includes app
+@import "app"
