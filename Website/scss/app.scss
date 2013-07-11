@@ -17,7 +17,13 @@ p{font-size: 32px;}
 @mixin rounded-border($tl: 10px, $tr: 10px, $br:10px, $bl: 10px){border-radius: $tl $tr $br $bl;}
 $border-color: #3498db;
 .border-generic{border: 2px solid $border-color;}
-.pricing-table .price{line-height:150px;}
+.pricing-table .price
+{
+	font-size: 2.25em;
+	min-height: 150px;
+}
+.pricing-table .price span{font-size: 0.833em;}
+.pricing-table .price p{font-size: 0.5em;}
 $price-table-student-light-color: #bdc3c7;
 $price-table-student-dark-color: #a6aeb3;
 $price-table-standard-light-color: #3498db;
@@ -38,6 +44,9 @@ button, .button
 	box-shadow: none;
 	border-radius: 5px;	
 }
+button, .button{width: 150px;}
+button, .button,
+.pricing-table .bullet-item{font-size: 1.125em;}
 .student.pricing-table{border-color: $price-table-student-light-color;}
 .student.pricing-table .title,
 .student .button{background-color: $price-table-student-light-color;}
