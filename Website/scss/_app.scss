@@ -3,8 +3,8 @@ html, body, h1, h2, h3, h4, h5, h6
   font-family: 'Open Sans', sans-serif;
   color: #bdc3c7; 
 }
-
-h2{font-size: 36px;}
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 1em;}
 p{font-size: 32px;}
 .font-18 p{font-size: 18px;}
 .smalltext{font-size: 20px;}
@@ -79,6 +79,6 @@ $footer-light-color: #34495e;
 	 min-height: 170px;
 }
 .margin-bottom-medium {margin-bottom: 40px;}
-.margin-bottom-big {margin-bottom: 90px;}
+.margin-bottom-xlarge {margin-bottom: 150px;}
 .margin-bottom-large {margin-bottom: 75px;}
 .margin-botom-small{margin-bottom: 25px;}

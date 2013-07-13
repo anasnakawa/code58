@@ -2237,9 +2237,9 @@ html, body, h1, h2, h3, h4, h5, h6 {
   color: #bdc3c7;
 }
 
-/* line 7, ../scss/_app.scss */
-h2 {
-  font-size: 36px;
+/* line 6, ../scss/_app.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1em;
 }
 
 /* line 8, ../scss/_app.scss */
@@ -2440,8 +2440,8 @@ button, .button,
 }
 
 /* line 82, ../scss/_app.scss */
-.margin-bottom-big {
-  margin-bottom: 90px;
+.margin-bottom-xlarge {
+  margin-bottom: 150px;
 }
 
 /* line 83, ../scss/_app.scss */
