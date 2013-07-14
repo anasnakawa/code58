@@ -1,0 +1,22 @@
+{
+  "name": "components-foundation",
+  "description": "The most advanced responsive front-end framework in the world.",
+  "version": "4.1.2",
+  "dependencies": {
+    "modernizr": "*",
+    "jquery": "*",
+    "normalize-css": "*"
+  },
+  "main": [
+    "js/foundation.min.js",
+    "css/foundation.css"
+  ],
+  "gitHead": "f5481ff882bdb77b10a971f56c2e5bb35edd7815",
+  "readme": "foundation\n==========\n\nShim repository for [Foundation](https://github.com/zurb/foundation).\n\nThis package provides the basic Foundation CSS and Javascript. It also includes\nall the optional Javascript. You may need to include the libraries for some\nof the features to work correctly.\n\nPackage Managers\n----------------\n\n* [Bower](http://bower.io): `components-foundation`\n* [Component](http://github.com/component/component): `components/foundation`\n* [Composer](http://packagist.org/packages/components/foundation): `components/foundation`\n",
+  "readmeFilename": "README.md",
+  "_id": "components-foundation@4.1.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/components/foundation.git"
+  }
+}
