@@ -1,10 +1,11 @@
 // Make sure the charset is set appropriately
 @charset "UTF-8";
+
 // This includes normalize
 @import "../components/scss/normalize";
 
-// This includes all of the foundation global elements that are needed to work with any of the other files.
-@import "../components/scss/foundation/variables";
+// This includes all of the Overwrited foundation global elements that are needed to work with any of the other files.
+@import "_foundation-variables";
 
 // Foundation Components
 @import

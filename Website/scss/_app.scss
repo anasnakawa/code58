@@ -5,10 +5,13 @@ html, body, h1, h2, h3, h4, h5, h6
 }
 h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 1em;}
-p{font-size: 32px;}
+p{font-size: 1.125em;}
+
+.title > h3{color:#FFF;
+margin:0;}
 .font-18 p{font-size: 18px;}
 .smalltext{font-size: 20px;}
-.largtext, .pricing-table .largtext{font-size: 28px;}
+
 .bg-primary{background-color: #3498db;}
 .border-color-primary{border-color: #3498db;}
 .color-primary{color: #3498db;}
