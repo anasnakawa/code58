@@ -5,7 +5,7 @@
 @import "../components/scss/normalize";
 
 // This includes all of the Overwrited foundation global elements that are needed to work with any of the other files.
-@import "_foundation-variables";
+@import "foundation-variables";
 
 // Foundation Components
 @import
@@ -15,7 +15,11 @@
   "../components/scss/foundation/components/type",
   "../components/scss/foundation/components/buttons",
   "../components/scss/foundation/components/forms",
-  "../components/scss/foundation/components/pricing-tables";
+  "../components/scss/foundation/components/pricing-tables",
+  "../components/scss/foundation/components/orbit";
 
 // This includes app
 @import "app";
+
+// Custom components and customizations
+@import "slider";

@@ -2189,11 +2189,11 @@ small.error {
 /* line 124, ../components/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .title {
   background-color: #dddddd;
-  padding: 0.9375em 1.25em;
+  padding: 0.667em 1.25em 0.929em;
   text-align: center;
   color: #333333;
-  font-weight: bold;
-  font-size: 1em;
+  font-weight: normal;
+  font-size: 1.6875em;
 }
 /* line 125, ../components/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -2210,7 +2210,7 @@ small.error {
   padding: 0.9375em;
   text-align: center;
   color: #777777;
-  font-size: 0.75em;
+  font-size: 0.875em;
   font-weight: normal;
   line-height: 1.4;
   border-bottom: dotted 1px #dddddd;
@@ -2232,225 +2232,534 @@ small.error {
   padding: 1.25em 1.25em 0;
 }
 
-/* line 2, ../scss/app.scss */
+@-webkit-keyframes rotate {
+  /* line 36, ../components/scss/foundation/components/_orbit.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 37, ../components/scss/foundation/components/_orbit.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes rotate {
+  /* line 40, ../components/scss/foundation/components/_orbit.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 41, ../components/scss/foundation/components/_orbit.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes rotate {
+  /* line 44, ../components/scss/foundation/components/_orbit.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 45, ../components/scss/foundation/components/_orbit.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  /* line 49, ../components/scss/foundation/components/_orbit.scss */
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 50, ../components/scss/foundation/components/_orbit.scss */
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+/* Orbit Graceful Loading */
+/* line 54, ../components/scss/foundation/components/_orbit.scss */
+.slideshow-wrapper {
+  position: relative;
+}
+/* line 57, ../components/scss/foundation/components/_orbit.scss */
+.slideshow-wrapper ul {
+  list-style-type: none;
+  margin: 0;
+}
+/* line 64, ../components/scss/foundation/components/_orbit.scss */
+.slideshow-wrapper ul li,
+.slideshow-wrapper ul li .orbit-caption {
+  display: none;
+}
+/* line 67, ../components/scss/foundation/components/_orbit.scss */
+.slideshow-wrapper ul li:first-child {
+  display: block;
+}
+/* line 70, ../components/scss/foundation/components/_orbit.scss */
+.slideshow-wrapper .orbit-container {
+  background-color: transparent;
+}
+/* line 73, ../components/scss/foundation/components/_orbit.scss */
+.slideshow-wrapper .orbit-container li {
+  display: block;
+}
+/* line 75, ../components/scss/foundation/components/_orbit.scss */
+.slideshow-wrapper .orbit-container li .orbit-caption {
+  display: block;
+}
+
+/* line 81, ../components/scss/foundation/components/_orbit.scss */
+.preloader {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -20px;
+  margin-left: -20px;
+  border: solid 3px;
+  border-color: #555 #fff;
+  -webkit-border-radius: 1000px;
+  border-radius: 1000px;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: rotate;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -o-animation-name: rotate;
+  -o-animation-duration: 1.5s;
+  -o-animation-iteration-count: infinite;
+  -o-animation-timing-function: linear;
+  animation-name: rotate;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* line 113, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  background: whitesmoke;
+}
+/* line 119, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+/* line 125, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container img {
+  display: block;
+}
+/* line 127, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container > * {
+  position: relative;
+  float: left;
+  height: auto;
+}
+/* line 132, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-slides-container > * .orbit-caption {
+  position: absolute;
+  bottom: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 0.875em;
+}
+/* line 145, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-slide-number {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+  color: white;
+  background: rgba(0, 0, 0, 0);
+}
+/* line 150, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-slide-number span {
+  font-weight: 700;
+  padding: 0.3125em;
+}
+/* line 155, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 6px;
+  width: 100px;
+}
+/* line 161, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-timer .orbit-progress {
+  height: 100%;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: block;
+  width: 0%;
+}
+/* line 169, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-timer > span {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  width: 11px;
+  height: 14px;
+  border: solid 4px #000;
+  border-top: none;
+  border-bottom: none;
+}
+/* line 182, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-timer.paused > span {
+  right: -6px;
+  top: 9px;
+  width: 11px;
+  height: 14px;
+  border: inset 8px;
+  border-right-style: solid;
+  border-color: transparent transparent transparent #000;
+}
+/* line 194, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container:hover .orbit-timer > span {
+  display: block;
+}
+/* line 198, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-prev,
+.orbit-container .orbit-next {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 50px;
+  height: 60px;
+  line-height: 50px;
+  color: white;
+  text-indent: -9999px !important;
+}
+/* line 210, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-prev > span,
+.orbit-container .orbit-next > span {
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  display: block;
+  width: 0;
+  height: 0;
+  border: inset 16px;
+}
+/* line 220, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-prev {
+  left: 0;
+}
+/* line 221, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-prev > span {
+  border-right-style: solid;
+  border-color: transparent;
+  border-right-color: #fff;
+}
+/* line 226, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-prev:hover > span {
+  border-right-color: #ccc;
+}
+/* line 230, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-next {
+  right: 0;
+}
+/* line 231, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-next > span {
+  border-color: transparent;
+  border-left-style: solid;
+  border-left-color: #fff;
+  left: 50%;
+  margin-left: -8px;
+}
+/* line 238, ../components/scss/foundation/components/_orbit.scss */
+.orbit-container .orbit-next:hover > span {
+  border-left-color: #ccc;
+}
+
+/* line 244, ../components/scss/foundation/components/_orbit.scss */
+.orbit-bullets {
+  margin: 0 auto 30px auto;
+  overflow: hidden;
+  position: relative;
+  top: 10px;
+}
+/* line 250, ../components/scss/foundation/components/_orbit.scss */
+.orbit-bullets li {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: #999999;
+  float: left;
+  margin-right: 6px;
+  border: solid 2px #222222;
+  -webkit-border-radius: 1000px;
+  border-radius: 1000px;
+}
+/* line 260, ../components/scss/foundation/components/_orbit.scss */
+.orbit-bullets li.active {
+  background: #222222;
+}
+/* line 264, ../components/scss/foundation/components/_orbit.scss */
+.orbit-bullets li:last-child {
+  margin-right: 0;
+}
+
+/* line 271, ../components/scss/foundation/components/_orbit.scss */
+.touch .orbit-container .orbit-prev,
+.touch .orbit-container .orbit-next {
+  display: none;
+}
+/* line 274, ../components/scss/foundation/components/_orbit.scss */
+.touch .orbit-bullets {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 283, ../components/scss/foundation/components/_orbit.scss */
+  .touch .orbit-container .orbit-prev,
+  .touch .orbit-container .orbit-next {
+    display: inherit;
+  }
+  /* line 286, ../components/scss/foundation/components/_orbit.scss */
+  .touch .orbit-bullets {
+    display: block;
+  }
+}
+/* line 2, ../scss/_app.scss */
 html, body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
   color: #bdc3c7;
 }
 
-/* line 7, ../scss/app.scss */
-h2 {
-  font-size: 36px;
+/* line 6, ../scss/_app.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1em;
 }
 
-/* line 8, ../scss/app.scss */
+/* line 8, ../scss/_app.scss */
 p {
-  font-size: 32px;
+  font-size: 1.125em;
 }
 
-/* line 9, ../scss/app.scss */
+/* line 10, ../scss/_app.scss */
+.title > h3 {
+  color: #FFF;
+  margin: 0;
+}
+
+/* line 12, ../scss/_app.scss */
 .font-18 p {
   font-size: 18px;
 }
 
-/* line 10, ../scss/app.scss */
+/* line 13, ../scss/_app.scss */
 .smalltext {
   font-size: 20px;
 }
 
-/* line 11, ../scss/app.scss */
-.largtext, .pricing-table .largtext {
-  font-size: 28px;
-}
-
-/* line 12, ../scss/app.scss */
+/* line 15, ../scss/_app.scss */
 .bg-primary {
   background-color: #3498db;
 }
 
-/* line 13, ../scss/app.scss */
+/* line 16, ../scss/_app.scss */
 .border-color-primary {
   border-color: #3498db;
 }
 
-/* line 14, ../scss/app.scss */
+/* line 17, ../scss/_app.scss */
 .color-primary {
   color: #3498db;
 }
 
-/* line 15, ../scss/app.scss */
+/* line 18, ../scss/_app.scss */
 .bg-dark-primary {
   background-color: #2c3e50;
 }
 
-/* line 16, ../scss/app.scss */
+/* line 19, ../scss/_app.scss */
 .bg-light-primary {
   background-color: #34495e;
 }
 
-/* line 20, ../scss/app.scss */
+/* line 23, ../scss/_app.scss */
 .border-generic {
   border: 2px solid #3498db;
 }
 
-/* line 22, ../scss/app.scss */
+/* line 25, ../scss/_app.scss */
 .pricing-table .price {
   font-size: 2.25em;
   min-height: 150px;
 }
 
-/* line 26, ../scss/app.scss */
+/* line 29, ../scss/_app.scss */
 .pricing-table .price span {
   font-size: 0.833em;
 }
 
-/* line 27, ../scss/app.scss */
+/* line 30, ../scss/_app.scss */
 .pricing-table .price p {
   font-size: 0.5em;
 }
 
-/* line 36, ../scss/app.scss */
+/* line 39, ../scss/_app.scss */
 .pricing-table {
   border-radius: 10px;
 }
 
-/* line 37, ../scss/app.scss */
+/* line 40, ../scss/_app.scss */
 .pricing-table .title {
   border-radius: 10px 10px 0 0;
 }
 
-/* line 38, ../scss/app.scss */
+/* line 41, ../scss/_app.scss */
 .pricing-table .cta-button {
   border-radius: 0 0 10px 10px;
 }
 
-/* line 39, ../scss/app.scss */
+/* line 42, ../scss/_app.scss */
 .pricing-table .cta-button {
   background-color: #fff;
 }
 
-/* line 41, ../scss/app.scss */
+/* line 44, ../scss/_app.scss */
 .pricing-table .title,
 .pricing-table .price {
   color: #fff;
 }
 
-/* line 43, ../scss/app.scss */
+/* line 46, ../scss/_app.scss */
 button, .button {
   border: none;
   box-shadow: none;
   border-radius: 5px;
 }
 
-/* line 48, ../scss/app.scss */
+/* line 51, ../scss/_app.scss */
 button, .button {
   width: 150px;
 }
 
-/* line 50, ../scss/app.scss */
+/* line 53, ../scss/_app.scss */
 button, .button,
 .pricing-table .bullet-item {
   font-size: 1.125em;
 }
 
-/* line 51, ../scss/app.scss */
+/* line 54, ../scss/_app.scss */
 .student.pricing-table {
   border-color: #bdc3c7;
 }
 
-/* line 53, ../scss/app.scss */
+/* line 56, ../scss/_app.scss */
 .student.pricing-table .title,
 .student .button {
   background-color: #bdc3c7;
 }
 
-/* line 54, ../scss/app.scss */
+/* line 57, ../scss/_app.scss */
 .student.pricing-table .price {
   background-color: #a6aeb3;
 }
 
-/* line 55, ../scss/app.scss */
+/* line 58, ../scss/_app.scss */
 .standard.pricing-table {
   border-color: #3498db;
 }
 
-/* line 57, ../scss/app.scss */
+/* line 60, ../scss/_app.scss */
 .standard.pricing-table .title,
 .standard .button {
   background-color: #3498db;
 }
 
-/* line 58, ../scss/app.scss */
+/* line 61, ../scss/_app.scss */
 .standard.pricing-table .price {
   background-color: #2980b9;
 }
 
-/* line 59, ../scss/app.scss */
+/* line 62, ../scss/_app.scss */
 .professional.pricing-table {
   border-color: #f1c40f;
 }
 
-/* line 61, ../scss/app.scss */
+/* line 64, ../scss/_app.scss */
 .professional.pricing-table .title,
 .professional .button {
   background-color: #f1c40f;
 }
 
-/* line 62, ../scss/app.scss */
+/* line 65, ../scss/_app.scss */
 .professional.pricing-table .price {
   background-color: #e2b501;
 }
 
-/* line 63, ../scss/app.scss */
+/* line 66, ../scss/_app.scss */
 .premium.pricing-table {
   border-color: #34495e;
 }
 
-/* line 65, ../scss/app.scss */
+/* line 68, ../scss/_app.scss */
 .premium.pricing-table .title,
 .premium .button {
   background-color: #34495e;
 }
 
-/* line 66, ../scss/app.scss */
+/* line 69, ../scss/_app.scss */
 .premium.pricing-table .price {
   background-color: #2c3e50;
 }
 
-/* line 70, ../scss/app.scss */
+/* line 73, ../scss/_app.scss */
 .dark-row {
   background: #2c3e50;
   line-height: 65px;
   color: #95a5a6;
 }
 
-/* line 75, ../scss/app.scss */
+/* line 78, ../scss/_app.scss */
 .dark-row a {
   color: #95a5a6;
 }
 
-/* line 77, ../scss/app.scss */
+/* line 80, ../scss/_app.scss */
 .light-row {
   background: #34495e;
   min-height: 170px;
 }
 
-/* line 81, ../scss/app.scss */
+/* line 84, ../scss/_app.scss */
 .margin-bottom-medium {
   margin-bottom: 40px;
 }
 
-/* line 82, ../scss/app.scss */
-.margin-bottom-big {
-  margin-bottom: 90px;
+/* line 85, ../scss/_app.scss */
+.margin-bottom-xlarge {
+  margin-bottom: 150px;
 }
 
-/* line 83, ../scss/app.scss */
+/* line 86, ../scss/_app.scss */
 .margin-bottom-large {
   margin-bottom: 75px;
 }
 
-/* line 84, ../scss/app.scss */
+/* line 87, ../scss/_app.scss */
 .margin-botom-small {
   margin-bottom: 25px;
 }

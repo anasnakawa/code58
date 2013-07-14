@@ -9,8 +9,10 @@
          <meta charset="utf-8" />
          <meta name="viewport" content="width=device-width" />
          <title>Code58</title>
-         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+         <link href="http://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css">
          <link rel="stylesheet" href="css/style.css" />
+         <link href="components/components-font-awesome/css/font-awesome.min.css" />
+         <script src="components/modernizr/modernizr.js"></script>
       </head>
       <body>
          <!-- Header -->
@@ -30,6 +32,32 @@
          </header>
          <!-- End Header --> 
          <!-- Slider -->
+         <section>
+            <div class="row">
+               <ul data-orbit>
+                 <li>
+                   <img src="http://placehold.it/1000x350/3498db/ffffff" />
+                   <div class="orbit-caption">...</div>
+                 </li>
+                 <li>
+                   <img src="http://placehold.it/1000x350/e74c3c/ffffff" />
+                   <div class="orbit-caption">...</div>
+                 </li>
+                 <li>
+                   <img src="http://placehold.it/1000x350/f1c40f/ffffff" />
+                   <div class="orbit-caption">...</div>
+                 </li>
+                 <li>
+                   <img src="http://placehold.it/1000x350/1abc9c/ffffff" />
+                   <div class="orbit-caption">...</div>
+                 </li>
+                 <li>
+                   <img src="http://placehold.it/1000x350/9b59b6/ffffff" />
+                   <div class="orbit-caption">...</div>
+                 </li>
+               </ul>
+            </div>
+         </section>
          <div data-magellan-expedition="fixed">
             <ul class="sub-nav">
                <li data-magellan-arrival="build"><a href="#build">Build with HTML</a></li>
@@ -224,5 +252,13 @@
                </div>
             </div>
          </footer>
+
+         <!-- js files -->
+         <script src="components/jquery/jquery.js"></script>
+         <script src="components/foundation/js/foundation/foundation.js"></script>
+         <script src="components/foundation/js/foundation/foundation.orbit.js"></script>
+
+         <script src="js/code58.main.js"></script>
+         <!-- End js files -->
       </body>
-   </html>
+   </html>  
