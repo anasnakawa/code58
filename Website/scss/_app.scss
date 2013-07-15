@@ -9,9 +9,7 @@ p{font-size: 1.125em;}
 
 .title > h3{color:#FFF;
 margin:0;}
-.font-18 p{font-size: 18px;}
-.smalltext{font-size: 20px;}
-
+textarea{height: 120px;}
 .bg-primary{background-color: #3498db;}
 .border-color-primary{border-color: #3498db;}
 .color-primary{color: #3498db;}
@@ -75,13 +73,12 @@ $footer-light-color: #34495e;
   	line-height: 65px;
 	color:#95a5a6;
  }
- .dark-row a{color:#95a5a6;}
  .light-row
 {
 	 background: $footer-light-color;
 	 min-height: 170px;
 }
-.margin-bottom-medium {margin-bottom: 40px;}
+
 .margin-bottom-xlarge {margin-bottom: 150px;}
 .margin-bottom-large {margin-bottom: 75px;}
 .margin-botom-small{margin-bottom: 25px;}
