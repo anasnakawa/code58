@@ -1,31 +1,19 @@
-html, body, h1, h2, h3, h4, h5, h6
-{
-  font-family: 'Open Sans', sans-serif;
-  color: #bdc3c7; 
-}
-h1, h2, h3, h4, h5, h6 {
-	margin-bottom: 1em;}
-p{font-size: 1.125em;}
-
-.title > h3{color:#FFF;
-margin:0;}
-textarea{height: 120px;}
-.bg-primary{background-color: #3498db;}
-.border-color-primary{border-color: #3498db;}
-.color-primary{color: #3498db;}
-.bg-dark-primary{background-color: #2c3e50;}
-.bg-light-primary{background-color: #34495e;}
+// ------------------------------
+// Handy Sass Mixins
+// ------------------------------
 @mixin rounded($radius: 10px){border-radius: $radius;}
 @mixin rounded-border($tl: 10px, $tr: 10px, $br:10px, $bl: 10px){border-radius: $tl $tr $br $bl;}
+
+// ------------------------------
+// Generic parameters
+// ------------------------------
 $border-color: #3498db;
-.border-generic{border: 2px solid $border-color;}
-.pricing-table .price
-{
-	font-size: 2.25em;
-	min-height: 150px;
-}
-.pricing-table .price span{font-size: 0.833em;}
-.pricing-table .price p{font-size: 0.5em;}
+$footer-dark-color: #2c3e50;
+$footer-light-color: #34495e;
+
+// ------------------------------
+// Price table parameters
+// ------------------------------
 $price-table-student-light-color: #bdc3c7;
 $price-table-student-dark-color: #a6aeb3;
 $price-table-standard-light-color: #3498db;
@@ -34,13 +22,34 @@ $price-table-professional-light-color: #f1c40f;
 $price-table-professional-dark-color: #e2b501;
 $price-table-premium-light-color: #34495e;
 $price-table-premium-dark-color: #2c3e50;
-.pricing-table {@include rounded}
-.pricing-table .title{@include rounded-border(10px, 10px, 0, 0)}
-.pricing-table .cta-button{@include rounded-border(0, 0, 10px, 10px);
-background-color: #fff;}
 
-.pricing-table .title,
-.pricing-table .price{color:#fff;}
+// ------------------------------
+// Price table generic styles
+// ------------------------------
+.pricing-table .price
+{
+	font-size: 2.25em;
+	min-height: 150px;
+}
+.pricing-table .price span
+{
+	font-size: 0.833em;
+}
+.pricing-table .price p
+{
+	font-size: 0.5em;
+}
+.pricing-table 
+{
+	@include rounded;
+}
+.pricing-table .title
+{
+	@include rounded-border(10px, 10px, 0, 0);
+}
+.pricing-table .cta-button{
+	@include rounded-border(0, 0, 10px, 10px);
+}
 .pricing-table button,.pricing-table .button
 {
 	border: none;
@@ -49,8 +58,15 @@ background-color: #fff;}
 	width: 150px;
 	font-size: 1.125em;
 }
+.title > h3
+{
+	color:#FFF;
+	margin:0;
+}
 
-.pricing-table .bullet-item{font-size: 1.125em;}
+// ------------------------------
+// Price table - custom style for each one
+// ------------------------------
 .student.pricing-table{border-color: $price-table-student-light-color;}
 .student.pricing-table .title,
 .student .button{background-color: $price-table-student-light-color;}
@@ -67,8 +83,10 @@ background-color: #fff;}
 .premium.pricing-table .title,
 .premium .button{background-color: $price-table-premium-light-color;}
 .premium.pricing-table .price{background-color: $price-table-premium-dark-color;}
-$footer-dark-color: #2c3e50;
-$footer-light-color: #34495e;
+
+// ------------------------------
+// Footer style
+// ------------------------------
 .dark-row
 {
 	background: $footer-dark-color;
@@ -81,6 +99,42 @@ $footer-light-color: #34495e;
 	 min-height: 170px;
 }
 
+// ------------------------------
+// Margin between sections
+// ------------------------------
 .margin-bottom-xlarge {margin-bottom: 150px;}
 .margin-bottom-large {margin-bottom: 75px;}
 .margin-botom-small{margin-bottom: 25px;}
+
+// ------------------------------
+// Generic styles
+// ------------------------------
+html, body, h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Open Sans', sans-serif;
+  color: #bdc3c7; 
+}
+h1, h2, h3, h4, h5, h6 
+{
+	margin-bottom: 1em;
+}
+p{
+	font-size: 1.125em;
+}
+textarea
+{
+	height: 120px;
+}
+
+// ------------------------------
+// Project styles
+// ------------------------------
+.border-generic
+{
+	border: 2px solid $border-color;
+}
+
+
+
+
+

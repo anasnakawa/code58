@@ -2190,7 +2190,7 @@ small.error {
   background-color: #dddddd;
   padding: 0.667em 1.25em 0.929em;
   text-align: center;
-  color: #333333;
+  color: white;
   font-weight: normal;
   font-size: 1.6875em;
 }
@@ -2199,7 +2199,7 @@ small.error {
   background-color: #eeeeee;
   padding: 0.9375em 1.25em;
   text-align: center;
-  color: #333333;
+  color: white;
   font-weight: normal;
   font-size: 1.25em;
 }
@@ -2220,13 +2220,13 @@ small.error {
   padding: 0.9375em;
   text-align: center;
   color: #333333;
-  font-size: 0.875em;
+  font-size: 1.125em;
   font-weight: normal;
   border-bottom: dotted 1px #dddddd;
 }
 /* line 128, ../components/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .cta-button {
-  background-color: whitesmoke;
+  background-color: white;
   text-align: center;
   padding: 1.25em 1.25em 0;
 }
@@ -2539,102 +2539,38 @@ small.error {
     display: block;
   }
 }
-/* line 2, ../scss/_app.scss */
-html, body, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
-  color: #bdc3c7;
-}
-
-/* line 6, ../scss/_app.scss */
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 1em;
-}
-
-/* line 8, ../scss/_app.scss */
-p {
-  font-size: 1.125em;
-}
-
-/* line 10, ../scss/_app.scss */
-.title > h3 {
-  color: #FFF;
-  margin: 0;
-}
-
-/* line 12, ../scss/_app.scss */
-textarea {
-  height: 120px;
-}
-
-/* line 13, ../scss/_app.scss */
-.bg-primary {
-  background-color: #3498db;
-}
-
-/* line 14, ../scss/_app.scss */
-.border-color-primary {
-  border-color: #3498db;
-}
-
-/* line 15, ../scss/_app.scss */
-.color-primary {
-  color: #3498db;
-}
-
-/* line 16, ../scss/_app.scss */
-.bg-dark-primary {
-  background-color: #2c3e50;
-}
-
-/* line 17, ../scss/_app.scss */
-.bg-light-primary {
-  background-color: #34495e;
-}
-
-/* line 21, ../scss/_app.scss */
-.border-generic {
-  border: 2px solid #3498db;
-}
-
-/* line 23, ../scss/_app.scss */
+/* line 30, ../scss/_app.scss */
 .pricing-table .price {
   font-size: 2.25em;
   min-height: 150px;
 }
 
-/* line 27, ../scss/_app.scss */
+/* line 35, ../scss/_app.scss */
 .pricing-table .price span {
   font-size: 0.833em;
 }
 
-/* line 28, ../scss/_app.scss */
+/* line 39, ../scss/_app.scss */
 .pricing-table .price p {
   font-size: 0.5em;
 }
 
-/* line 37, ../scss/_app.scss */
+/* line 43, ../scss/_app.scss */
 .pricing-table {
   border-radius: 10px;
 }
 
-/* line 38, ../scss/_app.scss */
+/* line 47, ../scss/_app.scss */
 .pricing-table .title {
   border-radius: 10px 10px 0 0;
 }
 
-/* line 39, ../scss/_app.scss */
+/* line 50, ../scss/_app.scss */
 .pricing-table .cta-button {
   border-radius: 0 0 10px 10px;
-  background-color: #fff;
 }
 
-/* line 43, ../scss/_app.scss */
-.pricing-table .title,
-.pricing-table .price {
-  color: #fff;
-}
-
-/* line 45, ../scss/_app.scss */
+/* line 54, ../scss/_app.scss */
 .pricing-table button, .pricing-table .button {
   border: none;
   box-shadow: none;
@@ -2643,99 +2579,126 @@ textarea {
   font-size: 1.125em;
 }
 
-/* line 53, ../scss/_app.scss */
-.pricing-table .bullet-item {
-  font-size: 1.125em;
+/* line 62, ../scss/_app.scss */
+.title > h3 {
+  color: #FFF;
+  margin: 0;
 }
 
-/* line 54, ../scss/_app.scss */
+/* line 70, ../scss/_app.scss */
 .student.pricing-table {
   border-color: #bdc3c7;
 }
 
-/* line 56, ../scss/_app.scss */
+/* line 72, ../scss/_app.scss */
 .student.pricing-table .title,
 .student .button {
   background-color: #bdc3c7;
 }
 
-/* line 57, ../scss/_app.scss */
+/* line 73, ../scss/_app.scss */
 .student.pricing-table .price {
   background-color: #a6aeb3;
 }
 
-/* line 58, ../scss/_app.scss */
+/* line 74, ../scss/_app.scss */
 .standard.pricing-table {
   border-color: #3498db;
 }
 
-/* line 60, ../scss/_app.scss */
+/* line 76, ../scss/_app.scss */
 .standard.pricing-table .title,
 .standard .button {
   background-color: #3498db;
 }
 
-/* line 61, ../scss/_app.scss */
+/* line 77, ../scss/_app.scss */
 .standard.pricing-table .price {
   background-color: #2980b9;
 }
 
-/* line 62, ../scss/_app.scss */
+/* line 78, ../scss/_app.scss */
 .professional.pricing-table {
   border-color: #f1c40f;
 }
 
-/* line 64, ../scss/_app.scss */
+/* line 80, ../scss/_app.scss */
 .professional.pricing-table .title,
 .professional .button {
   background-color: #f1c40f;
 }
 
-/* line 65, ../scss/_app.scss */
+/* line 81, ../scss/_app.scss */
 .professional.pricing-table .price {
   background-color: #e2b501;
 }
 
-/* line 66, ../scss/_app.scss */
+/* line 82, ../scss/_app.scss */
 .premium.pricing-table {
   border-color: #34495e;
 }
 
-/* line 68, ../scss/_app.scss */
+/* line 84, ../scss/_app.scss */
 .premium.pricing-table .title,
 .premium .button {
   background-color: #34495e;
 }
 
-/* line 69, ../scss/_app.scss */
+/* line 85, ../scss/_app.scss */
 .premium.pricing-table .price {
   background-color: #2c3e50;
 }
 
-/* line 73, ../scss/_app.scss */
+/* line 91, ../scss/_app.scss */
 .dark-row {
   background: #2c3e50;
   line-height: 65px;
   color: #95a5a6;
 }
 
-/* line 79, ../scss/_app.scss */
+/* line 97, ../scss/_app.scss */
 .light-row {
   background: #34495e;
   min-height: 170px;
 }
 
-/* line 84, ../scss/_app.scss */
+/* line 105, ../scss/_app.scss */
 .margin-bottom-xlarge {
   margin-bottom: 150px;
 }
 
-/* line 85, ../scss/_app.scss */
+/* line 106, ../scss/_app.scss */
 .margin-bottom-large {
   margin-bottom: 75px;
 }
 
-/* line 86, ../scss/_app.scss */
+/* line 107, ../scss/_app.scss */
 .margin-botom-small {
   margin-bottom: 25px;
+}
+
+/* line 113, ../scss/_app.scss */
+html, body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  color: #bdc3c7;
+}
+
+/* line 118, ../scss/_app.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1em;
+}
+
+/* line 121, ../scss/_app.scss */
+p {
+  font-size: 1.125em;
+}
+
+/* line 125, ../scss/_app.scss */
+textarea {
+  height: 120px;
+}
+
+/* line 133, ../scss/_app.scss */
+.border-generic {
+  border: 2px solid #3498db;
 }
