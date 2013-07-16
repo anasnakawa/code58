@@ -36,18 +36,20 @@ $price-table-premium-light-color: #34495e;
 $price-table-premium-dark-color: #2c3e50;
 .pricing-table {@include rounded}
 .pricing-table .title{@include rounded-border(10px, 10px, 0, 0)}
-.pricing-table .cta-button{@include rounded-border(0, 0, 10px, 10px)}
-.pricing-table .cta-button{background-color: #fff;}
+.pricing-table .cta-button{@include rounded-border(0, 0, 10px, 10px);
+background-color: #fff;}
+
 .pricing-table .title,
 .pricing-table .price{color:#fff;}
-button, .button
+.pricing-table button,.pricing-table .button
 {
 	border: none;
 	box-shadow: none;
-	border-radius: 5px;	
+	border-radius: 5px;
+	width: 150px;
+	font-size: 1.125em;
 }
-button, .button{width: 150px;}
-button, .button,
+
 .pricing-table .bullet-item{font-size: 1.125em;}
 .student.pricing-table{border-color: $price-table-student-light-color;}
 .student.pricing-table .title,

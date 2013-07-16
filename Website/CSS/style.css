@@ -2625,125 +2625,117 @@ textarea {
 /* line 39, ../scss/_app.scss */
 .pricing-table .cta-button {
   border-radius: 0 0 10px 10px;
-}
-
-/* line 40, ../scss/_app.scss */
-.pricing-table .cta-button {
   background-color: #fff;
 }
 
-/* line 42, ../scss/_app.scss */
+/* line 43, ../scss/_app.scss */
 .pricing-table .title,
 .pricing-table .price {
   color: #fff;
 }
 
-/* line 44, ../scss/_app.scss */
-button, .button {
+/* line 45, ../scss/_app.scss */
+.pricing-table button, .pricing-table .button {
   border: none;
   box-shadow: none;
   border-radius: 5px;
-}
-
-/* line 49, ../scss/_app.scss */
-button, .button {
   width: 150px;
+  font-size: 1.125em;
 }
 
-/* line 51, ../scss/_app.scss */
-button, .button,
+/* line 53, ../scss/_app.scss */
 .pricing-table .bullet-item {
   font-size: 1.125em;
 }
 
-/* line 52, ../scss/_app.scss */
+/* line 54, ../scss/_app.scss */
 .student.pricing-table {
   border-color: #bdc3c7;
 }
 
-/* line 54, ../scss/_app.scss */
+/* line 56, ../scss/_app.scss */
 .student.pricing-table .title,
 .student .button {
   background-color: #bdc3c7;
 }
 
-/* line 55, ../scss/_app.scss */
+/* line 57, ../scss/_app.scss */
 .student.pricing-table .price {
   background-color: #a6aeb3;
 }
 
-/* line 56, ../scss/_app.scss */
+/* line 58, ../scss/_app.scss */
 .standard.pricing-table {
   border-color: #3498db;
 }
 
-/* line 58, ../scss/_app.scss */
+/* line 60, ../scss/_app.scss */
 .standard.pricing-table .title,
 .standard .button {
   background-color: #3498db;
 }
 
-/* line 59, ../scss/_app.scss */
+/* line 61, ../scss/_app.scss */
 .standard.pricing-table .price {
   background-color: #2980b9;
 }
 
-/* line 60, ../scss/_app.scss */
+/* line 62, ../scss/_app.scss */
 .professional.pricing-table {
   border-color: #f1c40f;
 }
 
-/* line 62, ../scss/_app.scss */
+/* line 64, ../scss/_app.scss */
 .professional.pricing-table .title,
 .professional .button {
   background-color: #f1c40f;
 }
 
-/* line 63, ../scss/_app.scss */
+/* line 65, ../scss/_app.scss */
 .professional.pricing-table .price {
   background-color: #e2b501;
 }
 
-/* line 64, ../scss/_app.scss */
+/* line 66, ../scss/_app.scss */
 .premium.pricing-table {
   border-color: #34495e;
 }
 
-/* line 66, ../scss/_app.scss */
+/* line 68, ../scss/_app.scss */
 .premium.pricing-table .title,
 .premium .button {
   background-color: #34495e;
 }
 
-/* line 67, ../scss/_app.scss */
+/* line 69, ../scss/_app.scss */
 .premium.pricing-table .price {
   background-color: #2c3e50;
 }
 
-/* line 71, ../scss/_app.scss */
+/* line 73, ../scss/_app.scss */
 .dark-row {
   background: #2c3e50;
   line-height: 65px;
   color: #95a5a6;
 }
 
-/* line 77, ../scss/_app.scss */
+/* line 79, ../scss/_app.scss */
 .light-row {
   background: #34495e;
   min-height: 170px;
 }
 
-/* line 82, ../scss/_app.scss */
+/* line 84, ../scss/_app.scss */
 .margin-bottom-xlarge {
   margin-bottom: 150px;
 }
 
-/* line 83, ../scss/_app.scss */
+/* line 85, ../scss/_app.scss */
 .margin-bottom-large {
   margin-bottom: 75px;
 }
 
-/* line 84, ../scss/_app.scss */
+/* line 86, ../scss/_app.scss */
 .margin-botom-small {
   margin-bottom: 25px;
 }
