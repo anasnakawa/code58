@@ -17,6 +17,7 @@
 
 	// hacking orbit
 	// -------------
+	/*
 	$('.orbit-container')
 		.find('.orbit-prev, .orbit-next')
 		.each(function() {
@@ -27,5 +28,6 @@
 			
 			$icon.appendTo( $self );
 		});
+	// */
 
 })(jQuery);

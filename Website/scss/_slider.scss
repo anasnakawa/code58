@@ -8,3 +8,35 @@
 // 
 // ------------------------------
 
+.orbit-container {
+	border: 2px solid $border-color;
+
+	// navigation
+	.orbit-prev,
+	.orbit-next {
+		@include transition(0.3s opacity);
+		@include opacity(0);
+		@include border-radius(20px);
+		width: 60px;
+	}
+
+	.orbit-prev {
+
+	}
+
+	.orbit-next {
+		
+	}
+
+	&:hover {
+		.orbit-next,
+		.orbit-prev { 
+			@include opacity(1);
+		}
+	}
+
+	// hidden controls
+	.orbit-slide-number {
+		visibility: hidden;
+	}
+}

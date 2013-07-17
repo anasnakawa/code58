@@ -18,6 +18,9 @@
   "../components/scss/foundation/components/pricing-tables",
   "../components/scss/foundation/components/orbit";
 
+// Compass helpers
+@import "compass/css3";
+
 // This includes app
 @import "app";
 
