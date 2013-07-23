@@ -125,6 +125,10 @@ textarea
 {
 	height: 120px;
 }
+.rounded
+{
+	@include rounded;
+}
 
 // ------------------------------
 // Project styles
@@ -134,6 +138,21 @@ textarea
 	border: 2px solid $border-color;
 }
 
+// ------------------------------
+// buttons styles
+// ------------------------------
+button, .button
+{
+	box-shadow: none;
+}
+.button-large
+{
+	width: 150px;
+}
+.button-medium
+{
+	width: 110px;
+}
 
 
 
