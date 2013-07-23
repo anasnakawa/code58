@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* normalize.css v2.1.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -2539,38 +2540,60 @@ small.error {
     display: block;
   }
 }
-/* line 30, ../scss/_app.scss */
+/* line 29, ../scss/_app.scss */
+.pricing-table {
+  border-radius: 10px;
+}
+/* line 33, ../scss/_app.scss */
+.pricing-table .price {
+  font-size: 2.25em;
+  min-height: 150px;
+}
+/* line 37, ../scss/_app.scss */
+.pricing-table .price span {
+  font-size: 0.833em;
+}
+/* line 41, ../scss/_app.scss */
+.pricing-table .price p {
+  font-size: 0.5em;
+}
+/* line 46, ../scss/_app.scss */
+.pricing-table .title {
+  border-radius: 10px 10px 0 0;
+}
+
+/* line 51, ../scss/_app.scss */
 .pricing-table .price {
   font-size: 2.25em;
   min-height: 150px;
 }
 
-/* line 35, ../scss/_app.scss */
+/* line 56, ../scss/_app.scss */
 .pricing-table .price span {
   font-size: 0.833em;
 }
 
-/* line 39, ../scss/_app.scss */
+/* line 60, ../scss/_app.scss */
 .pricing-table .price p {
   font-size: 0.5em;
 }
 
-/* line 43, ../scss/_app.scss */
+/* line 64, ../scss/_app.scss */
 .pricing-table {
   border-radius: 10px;
 }
 
-/* line 47, ../scss/_app.scss */
+/* line 68, ../scss/_app.scss */
 .pricing-table .title {
   border-radius: 10px 10px 0 0;
 }
 
-/* line 50, ../scss/_app.scss */
+/* line 71, ../scss/_app.scss */
 .pricing-table .cta-button {
   border-radius: 0 0 10px 10px;
 }
 
-/* line 54, ../scss/_app.scss */
+/* line 75, ../scss/_app.scss */
 .pricing-table button, .pricing-table .button {
   border: none;
   box-shadow: none;
@@ -2579,155 +2602,156 @@ small.error {
   font-size: 1.125em;
 }
 
-/* line 62, ../scss/_app.scss */
+/* line 83, ../scss/_app.scss */
 .title > h3 {
   color: #FFF;
   margin: 0;
 }
 
-/* line 70, ../scss/_app.scss */
+/* line 91, ../scss/_app.scss */
 .student.pricing-table {
   border-color: #bdc3c7;
 }
 
-/* line 72, ../scss/_app.scss */
+/* line 93, ../scss/_app.scss */
 .student.pricing-table .title,
 .student .button {
   background-color: #bdc3c7;
 }
 
-/* line 73, ../scss/_app.scss */
+/* line 94, ../scss/_app.scss */
 .student.pricing-table .price {
   background-color: #a6aeb3;
 }
 
-/* line 74, ../scss/_app.scss */
+/* line 95, ../scss/_app.scss */
 .standard.pricing-table {
   border-color: #3498db;
 }
 
-/* line 76, ../scss/_app.scss */
+/* line 97, ../scss/_app.scss */
 .standard.pricing-table .title,
 .standard .button {
   background-color: #3498db;
 }
 
-/* line 77, ../scss/_app.scss */
+/* line 98, ../scss/_app.scss */
 .standard.pricing-table .price {
   background-color: #2980b9;
 }
 
-/* line 78, ../scss/_app.scss */
+/* line 99, ../scss/_app.scss */
 .professional.pricing-table {
   border-color: #f1c40f;
 }
 
-/* line 80, ../scss/_app.scss */
+/* line 101, ../scss/_app.scss */
 .professional.pricing-table .title,
 .professional .button {
   background-color: #f1c40f;
 }
 
-/* line 81, ../scss/_app.scss */
+/* line 102, ../scss/_app.scss */
 .professional.pricing-table .price {
   background-color: #e2b501;
 }
 
-/* line 82, ../scss/_app.scss */
+/* line 103, ../scss/_app.scss */
 .premium.pricing-table {
   border-color: #34495e;
 }
 
-/* line 84, ../scss/_app.scss */
+/* line 105, ../scss/_app.scss */
 .premium.pricing-table .title,
 .premium .button {
   background-color: #34495e;
 }
 
-/* line 85, ../scss/_app.scss */
+/* line 106, ../scss/_app.scss */
 .premium.pricing-table .price {
   background-color: #2c3e50;
 }
 
-/* line 91, ../scss/_app.scss */
+/* line 112, ../scss/_app.scss */
 .dark-row {
   background: #2c3e50;
   line-height: 65px;
   color: #95a5a6;
 }
 
-/* line 97, ../scss/_app.scss */
+/* line 118, ../scss/_app.scss */
 .light-row {
   background: #34495e;
   min-height: 170px;
 }
 
-/* line 105, ../scss/_app.scss */
+/* line 126, ../scss/_app.scss */
 .margin-bottom-xlarge {
   margin-bottom: 150px;
 }
 
-/* line 106, ../scss/_app.scss */
+/* line 127, ../scss/_app.scss */
 .margin-bottom-large {
   margin-bottom: 75px;
 }
 
-/* line 107, ../scss/_app.scss */
+/* line 128, ../scss/_app.scss */
 .margin-botom-small {
   margin-bottom: 25px;
 }
 
-/* line 113, ../scss/_app.scss */
+/* line 134, ../scss/_app.scss */
 html, body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
   color: #bdc3c7;
 }
 
-/* line 118, ../scss/_app.scss */
+/* line 139, ../scss/_app.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
 }
 
-/* line 121, ../scss/_app.scss */
+/* line 142, ../scss/_app.scss */
 p {
   font-size: 1.125em;
 }
 
-/* line 125, ../scss/_app.scss */
+/* line 146, ../scss/_app.scss */
 textarea {
   height: 120px;
 }
 
-/* line 129, ../scss/_app.scss */
+/* line 150, ../scss/_app.scss */
 .rounded {
   border-radius: 10px;
 }
 
-/* line 137, ../scss/_app.scss */
+/* line 158, ../scss/_app.scss */
 .border-generic {
   border: 2px solid #3498db;
 }
 
-/* line 145, ../scss/_app.scss */
+/* line 166, ../scss/_app.scss */
 button, .button {
   box-shadow: none;
 }
 
-/* line 149, ../scss/_app.scss */
+/* line 170, ../scss/_app.scss */
 .button-large {
   width: 150px;
 }
 
-/* line 153, ../scss/_app.scss */
+/* line 174, ../scss/_app.scss */
 .button-medium {
   width: 110px;
 }
 
-/* line 11, ../scss/_slider.scss */
+/* line 16, ../scss/_slider.scss */
 .orbit-container {
   border: 2px solid #3498db;
+  position: relative;
 }
-/* line 16, ../scss/_slider.scss */
+/* line 26, ../scss/_slider.scss */
 .orbit-container .orbit-prev,
 .orbit-container .orbit-next {
   -webkit-transition: 0.3s opacity;
@@ -2736,20 +2760,105 @@ button, .button {
   transition: 0.3s opacity;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  border-radius: 20px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
+  border-radius: 40px;
+  background-color: rgba(52, 152, 219, 0.5);
   width: 60px;
 }
-/* line 33, ../scss/_slider.scss */
+/* line 34, ../scss/_slider.scss */
+.orbit-container .orbit-prev {
+  left: 10px;
+}
+/* line 36, ../scss/_slider.scss */
+.orbit-container .orbit-prev span {
+  left: 5px;
+}
+/* line 41, ../scss/_slider.scss */
+.orbit-container .orbit-next {
+  right: 10px;
+}
+/* line 43, ../scss/_slider.scss */
+.orbit-container .orbit-next span {
+  right: 5px;
+}
+/* line 50, ../scss/_slider.scss */
 .orbit-container:hover .orbit-next,
 .orbit-container:hover .orbit-prev {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 39, ../scss/_slider.scss */
+/* line 57, ../scss/_slider.scss */
+.orbit-container .orbit-timer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: auto;
+  width: 100%;
+}
+/* line 64, ../scss/_slider.scss */
+.orbit-container .orbit-timer .orbit-progress {
+  background-color: rgba(52, 152, 219, 0.5);
+}
+/* line 73, ../scss/_slider.scss */
+.orbit-container .orbit-slides-container .orbit-caption {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+  bottom: auto;
+  height: auto;
+  color: white;
+  background-color: rgba(52, 152, 219, 0.5);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 88, ../scss/_slider.scss */
 .orbit-container .orbit-slide-number {
   visibility: hidden;
+}
+
+/* line 95, ../scss/_slider.scss */
+.orbit-bullets {
+  top: -40px;
+  display: inline-block;
+  float: right;
+  right: 20px;
+  -webkit-transition: 0.3s opacity;
+  -moz-transition: 0.3s opacity;
+  -o-transition: 0.3s opacity;
+  transition: 0.3s opacity;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+/* line 103, ../scss/_slider.scss */
+.orbit-bullets li {
+  background-color: transparent;
+  border-color: #3498db;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+  cursor: pointer;
+}
+/* line 109, ../scss/_slider.scss */
+.orbit-bullets li.active {
+  background-color: white;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* line 114, ../scss/_slider.scss */
+.orbit-bullets li:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/* line 122, ../scss/_slider.scss */
+.orbit-container:hover + .orbit-bullets,
+.orbit-bullets:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
 }
