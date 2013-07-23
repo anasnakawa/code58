@@ -26,6 +26,27 @@ $price-table-premium-dark-color: #2c3e50;
 // ------------------------------
 // Price table generic styles
 // ------------------------------
+.pricing-table {
+	
+	@include rounded;
+
+	.price {
+		font-size: 2.25em;
+		min-height: 150px;
+		
+		span {
+			font-size: 0.833em;
+		}
+
+		p {
+			font-size: 0.5em;
+		}
+	}
+
+	.title {
+		@include rounded-border(10px, 10px, 0, 0);
+	}
+}
 .pricing-table .price
 {
 	font-size: 2.25em;
