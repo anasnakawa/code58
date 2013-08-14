@@ -24,6 +24,29 @@ $price-table-premium-light-color: #34495e;
 $price-table-premium-dark-color: #2c3e50;
 
 // ------------------------------
+// Generic styles
+// ------------------------------
+html, body
+{
+  color: #bdc3c7; 
+}
+h1, h2, h3, h4, h5, h6 
+{
+	margin-bottom: 1em;
+}
+p{
+	font-size: 1.125em;
+}
+textarea
+{
+	height: 120px;
+}
+.rounded
+{
+	@include rounded;
+}
+
+// ------------------------------
 // Price table generic styles
 // ------------------------------
 .pricing-table {
@@ -42,42 +65,25 @@ $price-table-premium-dark-color: #2c3e50;
 			font-size: 0.5em;
 		}
 	}
-
 	.title {
 		@include rounded-border(10px, 10px, 0, 0);
 	}
-}
-.pricing-table .price
-{
-	font-size: 2.25em;
-	min-height: 150px;
-}
-.pricing-table .price span
-{
-	font-size: 0.833em;
-}
-.pricing-table .price p
-{
-	font-size: 0.5em;
-}
-.pricing-table 
-{
-	@include rounded;
-}
-.pricing-table .title
-{
-	@include rounded-border(10px, 10px, 0, 0);
-}
-.pricing-table .cta-button{
+
+	.cta-button {
 	@include rounded-border(0, 0, 10px, 10px);
-}
-.pricing-table button,.pricing-table .button
-{
+	}
+
+	button,.pricing-table .button {
 	border: none;
 	box-shadow: none;
 	border-radius: 5px;
 	width: 150px;
 	font-size: 1.125em;
+	}
+}
+
+.special-price{
+	font-size: 3.75em;
 }
 .title > h3
 {
@@ -118,6 +124,43 @@ $price-table-premium-dark-color: #2c3e50;
 {
 	 background: $footer-light-color;
 	 min-height: 170px;
+	 padding-top: 30px;
+}
+ .light-row p
+ {
+ 	line-height: 1.125;
+ }
+ @media only screen and (min-width: 768px) {
+	 .light-row p.center
+	 {
+	 	padding-left: 50px;
+	 }
+}
+.row .row.collapse
+{
+	margin: 0 -0.9375em;
+}
+.footer-font-size,
+.footer-font-size a
+{
+	font-size: 0.75em;
+	color: #95A5A6;
+}
+.subscribe a.button,
+.subscribe input
+{
+	height: 40px;
+}
+.subscribe input
+{
+	font-size: 0.875em
+}
+.subscribe a.button
+{
+	@include rounded;
+	border: none;
+	margin-left: -15px;
+	line-height: 3;
 }
 
 // ------------------------------
@@ -126,30 +169,6 @@ $price-table-premium-dark-color: #2c3e50;
 .margin-bottom-xlarge {margin-bottom: 150px;}
 .margin-bottom-large {margin-bottom: 75px;}
 .margin-botom-small{margin-bottom: 25px;}
-
-// ------------------------------
-// Generic styles
-// ------------------------------
-html, body, h1, h2, h3, h4, h5, h6
-{
-  font-family: 'Open Sans', sans-serif;
-  color: #bdc3c7; 
-}
-h1, h2, h3, h4, h5, h6 
-{
-	margin-bottom: 1em;
-}
-p{
-	font-size: 1.125em;
-}
-textarea
-{
-	height: 120px;
-}
-.rounded
-{
-	@include rounded;
-}
 
 // ------------------------------
 // Project styles

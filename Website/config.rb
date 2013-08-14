@@ -4,17 +4,18 @@
 http_path = "/"
 css_dir = "css"
 sass_dir = "scss"
-images_dir = "images"
-javascripts_dir = "javascripts"
+images_dir = "img"
+javascripts_dir = "js"
 
 # You can select your preferred output style here (can be overridden via the command line):
-# output_style = :expanded or :nested or :compact or :compressed
+output_style = :expanded 
+#or :nested or :compact or :compressed
 
 # To enable relative paths to assets via compass helper functions. Uncomment:
 # relative_assets = true
 
 # To disable debugging comments that display the original location of your selectors. Uncomment:
-line_comments = true
+# line_comments = false
 
 
 # If you prefer the indented syntax, you might want to regenerate this
@@ -22,8 +23,3 @@ line_comments = true
 # preferred_syntax = :sass
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
-
-# Configuration Functions
-
-# Call this function to add a path to the list of sass import paths for your compass project
-add_import_path "components"

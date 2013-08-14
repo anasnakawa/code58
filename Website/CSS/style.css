@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* normalize.css v2.1.1 | MIT License | git.io/normalize */
+/*! normalize.css v2.1.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -434,8 +434,8 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
   font-style: normal;
   line-height: 1;
   position: relative;
@@ -1111,7 +1111,7 @@ p.lead {
 /* line 115, ../components/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: white;
   font-weight: 300;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
@@ -1179,10 +1179,10 @@ p aside {
 /* Default header styles */
 /* line 181, ../components/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
   font-style: normal;
-  color: #222222;
+  color: #bdc3c7;
   text-rendering: optimizeLegibility;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
@@ -1191,7 +1191,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 191, ../components/scss/foundation/components/_type.scss */
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   font-size: 60%;
-  color: #6f6f6f;
+  color: white;
   line-height: 0;
 }
 
@@ -1355,7 +1355,7 @@ blockquote {
 blockquote cite {
   display: block;
   font-size: 0.8125em;
-  color: #555555;
+  color: #f4f5f6;
 }
 /* line 319, ../components/scss/foundation/components/_type.scss */
 blockquote cite:before {
@@ -1364,14 +1364,14 @@ blockquote cite:before {
 /* line 324, ../components/scss/foundation/components/_type.scss */
 blockquote cite a,
 blockquote cite a:visited {
-  color: #555555;
+  color: #f4f5f6;
 }
 
 /* line 330, ../components/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f;
+  color: white;
 }
 
 /* Microformats */
@@ -1541,7 +1541,7 @@ blockquote p {
 /* line 172, ../components/scss/foundation/components/_buttons.scss */
 button, .button {
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
   cursor: pointer;
   font-family: inherit;
   font-weight: bold;
@@ -2540,61 +2540,58 @@ small.error {
     display: block;
   }
 }
-/* line 29, ../scss/_app.scss */
-.pricing-table {
-  border-radius: 10px;
+/* line 30, ../scss/_app.scss */
+html, body {
+  color: #bdc3c7;
 }
-/* line 33, ../scss/_app.scss */
-.pricing-table .price {
-  font-size: 2.25em;
-  min-height: 150px;
+
+/* line 34, ../scss/_app.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1em;
 }
+
 /* line 37, ../scss/_app.scss */
-.pricing-table .price span {
-  font-size: 0.833em;
-}
-/* line 41, ../scss/_app.scss */
-.pricing-table .price p {
-  font-size: 0.5em;
-}
-/* line 46, ../scss/_app.scss */
-.pricing-table .title {
-  border-radius: 10px 10px 0 0;
+p {
+  font-size: 1.125em;
 }
 
-/* line 51, ../scss/_app.scss */
+/* line 41, ../scss/_app.scss */
+textarea {
+  height: 120px;
+}
+
+/* line 45, ../scss/_app.scss */
+.rounded {
+  border-radius: 10px;
+}
+
+/* line 52, ../scss/_app.scss */
+.pricing-table {
+  border-radius: 10px;
+}
+/* line 56, ../scss/_app.scss */
 .pricing-table .price {
   font-size: 2.25em;
   min-height: 150px;
 }
-
-/* line 56, ../scss/_app.scss */
+/* line 60, ../scss/_app.scss */
 .pricing-table .price span {
   font-size: 0.833em;
 }
-
-/* line 60, ../scss/_app.scss */
+/* line 64, ../scss/_app.scss */
 .pricing-table .price p {
   font-size: 0.5em;
 }
-
-/* line 64, ../scss/_app.scss */
-.pricing-table {
-  border-radius: 10px;
-}
-
 /* line 68, ../scss/_app.scss */
 .pricing-table .title {
   border-radius: 10px 10px 0 0;
 }
-
-/* line 71, ../scss/_app.scss */
+/* line 72, ../scss/_app.scss */
 .pricing-table .cta-button {
   border-radius: 0 0 10px 10px;
 }
-
-/* line 75, ../scss/_app.scss */
-.pricing-table button, .pricing-table .button {
+/* line 76, ../scss/_app.scss */
+.pricing-table button, .pricing-table .pricing-table .button {
   border: none;
   box-shadow: none;
   border-radius: 5px;
@@ -2602,146 +2599,168 @@ small.error {
   font-size: 1.125em;
 }
 
-/* line 83, ../scss/_app.scss */
+/* line 85, ../scss/_app.scss */
+.special-price {
+  font-size: 3.75em;
+}
+
+/* line 89, ../scss/_app.scss */
 .title > h3 {
   color: #FFF;
   margin: 0;
 }
 
-/* line 91, ../scss/_app.scss */
+/* line 97, ../scss/_app.scss */
 .student.pricing-table {
   border-color: #bdc3c7;
 }
 
-/* line 93, ../scss/_app.scss */
+/* line 99, ../scss/_app.scss */
 .student.pricing-table .title,
 .student .button {
   background-color: #bdc3c7;
 }
 
-/* line 94, ../scss/_app.scss */
+/* line 100, ../scss/_app.scss */
 .student.pricing-table .price {
   background-color: #a6aeb3;
 }
 
-/* line 95, ../scss/_app.scss */
+/* line 101, ../scss/_app.scss */
 .standard.pricing-table {
   border-color: #3498db;
 }
 
-/* line 97, ../scss/_app.scss */
+/* line 103, ../scss/_app.scss */
 .standard.pricing-table .title,
 .standard .button {
   background-color: #3498db;
 }
 
-/* line 98, ../scss/_app.scss */
+/* line 104, ../scss/_app.scss */
 .standard.pricing-table .price {
   background-color: #2980b9;
 }
 
-/* line 99, ../scss/_app.scss */
+/* line 105, ../scss/_app.scss */
 .professional.pricing-table {
   border-color: #f1c40f;
 }
 
-/* line 101, ../scss/_app.scss */
+/* line 107, ../scss/_app.scss */
 .professional.pricing-table .title,
 .professional .button {
   background-color: #f1c40f;
 }
 
-/* line 102, ../scss/_app.scss */
+/* line 108, ../scss/_app.scss */
 .professional.pricing-table .price {
   background-color: #e2b501;
 }
 
-/* line 103, ../scss/_app.scss */
+/* line 109, ../scss/_app.scss */
 .premium.pricing-table {
   border-color: #34495e;
 }
 
-/* line 105, ../scss/_app.scss */
+/* line 111, ../scss/_app.scss */
 .premium.pricing-table .title,
 .premium .button {
   background-color: #34495e;
 }
 
-/* line 106, ../scss/_app.scss */
+/* line 112, ../scss/_app.scss */
 .premium.pricing-table .price {
   background-color: #2c3e50;
 }
 
-/* line 112, ../scss/_app.scss */
+/* line 118, ../scss/_app.scss */
 .dark-row {
   background: #2c3e50;
   line-height: 65px;
   color: #95a5a6;
 }
 
-/* line 118, ../scss/_app.scss */
+/* line 124, ../scss/_app.scss */
 .light-row {
   background: #34495e;
   min-height: 170px;
+  padding-top: 30px;
 }
 
-/* line 126, ../scss/_app.scss */
+/* line 130, ../scss/_app.scss */
+.light-row p {
+  line-height: 1.125;
+}
+
+@media only screen and (min-width: 768px) {
+  /* line 135, ../scss/_app.scss */
+  .light-row p.center {
+    padding-left: 50px;
+  }
+}
+/* line 140, ../scss/_app.scss */
+.row .row.collapse {
+  margin: 0 -0.9375em;
+}
+
+/* line 145, ../scss/_app.scss */
+.footer-font-size,
+.footer-font-size a {
+  font-size: 0.75em;
+  color: #95A5A6;
+}
+
+/* line 151, ../scss/_app.scss */
+.subscribe a.button,
+.subscribe input {
+  height: 40px;
+}
+
+/* line 155, ../scss/_app.scss */
+.subscribe input {
+  font-size: 0.875em;
+}
+
+/* line 159, ../scss/_app.scss */
+.subscribe a.button {
+  border-radius: 10px;
+  border: none;
+  margin-left: -15px;
+  line-height: 3;
+}
+
+/* line 169, ../scss/_app.scss */
 .margin-bottom-xlarge {
   margin-bottom: 150px;
 }
 
-/* line 127, ../scss/_app.scss */
+/* line 170, ../scss/_app.scss */
 .margin-bottom-large {
   margin-bottom: 75px;
 }
 
-/* line 128, ../scss/_app.scss */
+/* line 171, ../scss/_app.scss */
 .margin-botom-small {
   margin-bottom: 25px;
 }
 
-/* line 134, ../scss/_app.scss */
-html, body, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
-  color: #bdc3c7;
-}
-
-/* line 139, ../scss/_app.scss */
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 1em;
-}
-
-/* line 142, ../scss/_app.scss */
-p {
-  font-size: 1.125em;
-}
-
-/* line 146, ../scss/_app.scss */
-textarea {
-  height: 120px;
-}
-
-/* line 150, ../scss/_app.scss */
-.rounded {
-  border-radius: 10px;
-}
-
-/* line 158, ../scss/_app.scss */
+/* line 177, ../scss/_app.scss */
 .border-generic {
   border: 2px solid #3498db;
 }
 
-/* line 166, ../scss/_app.scss */
+/* line 185, ../scss/_app.scss */
 button, .button {
   box-shadow: none;
 }
 
-/* line 170, ../scss/_app.scss */
+/* line 189, ../scss/_app.scss */
 .button-large {
   width: 150px;
 }
 
-/* line 174, ../scss/_app.scss */
+/* line 193, ../scss/_app.scss */
 .button-medium {
   width: 110px;
 }
@@ -2861,4 +2880,53 @@ button, .button {
 .orbit-bullets:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+/* line 13, ../scss/_iconfont.scss */
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+/* line 30, ../scss/_iconfont.scss */
+.icon-checkmark, .icon-close {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 40, ../scss/_iconfont.scss */
+.icon-checkmark:before {
+  content: "\e000";
+}
+
+/* line 43, ../scss/_iconfont.scss */
+.icon-close:before {
+  content: "\e001";
 }
