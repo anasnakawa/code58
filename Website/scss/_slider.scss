@@ -8,7 +8,7 @@
 // container
 // navigation buttons
 // time indicator
-// text caption
+// panels & caption
 // hidden controls
 // pagination bullets
 // ------------------------------
@@ -67,9 +67,10 @@
 		}
 	}
 
-	// text caption
-	// ------------
+	// panels & caption
+	// ----------------
 	.orbit-slides-container {
+
 		.orbit-caption {
 			position: absolute;
 			top: 10px;
@@ -79,7 +80,13 @@
 			height: auto;
 			color: white;
 			background-color: rgba($border-color, 0.5);
+			@include animate-fadeOut;
 			@include border-radius(5px);
+		}
+
+		.active .orbit-caption {
+			@include animate-fadeIn;
+			@include opacity(1);
 		}
 	}
 
