@@ -2742,7 +2742,7 @@ textarea {
 
 /* line 171, ../scss/_app.scss */
 .margin-botom-small {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 /* line 177, ../scss/_app.scss */
@@ -2750,19 +2750,48 @@ textarea {
   border: 2px solid #3498db;
 }
 
-/* line 185, ../scss/_app.scss */
+/* line 181, ../scss/_app.scss */
+.project-title {
+  margin: 0 0 22px;
+}
+
+/* line 189, ../scss/_app.scss */
 button, .button {
   box-shadow: none;
 }
 
-/* line 189, ../scss/_app.scss */
+/* line 193, ../scss/_app.scss */
 .button-large {
   width: 150px;
 }
 
-/* line 193, ../scss/_app.scss */
+/* line 197, ../scss/_app.scss */
 .button-medium {
   width: 110px;
+}
+
+/* line 205, ../scss/_app.scss */
+.services-separator {
+  margin-top: 13px;
+  margin-bottom: 14px;
+}
+
+/* line 210, ../scss/_app.scss */
+.project-separator {
+  margin-top: 18px;
+  margin-bottom: 14px;
+}
+
+/* line 215, ../scss/_app.scss */
+.pricing-table-separator {
+  margin-top: 19px;
+  margin-bottom: 17px;
+}
+
+/* line 220, ../scss/_app.scss */
+.call-to-action-separator {
+  margin-top: 20px;
+  margin-bottom: 14px;
 }
 
 /* line 16, ../scss/_slider.scss */

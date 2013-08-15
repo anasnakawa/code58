@@ -168,7 +168,7 @@ textarea
 // ------------------------------
 .margin-bottom-xlarge {margin-bottom: 150px;}
 .margin-bottom-large {margin-bottom: 75px;}
-.margin-botom-small{margin-bottom: 25px;}
+.margin-botom-small{margin-bottom: 20px;}
 
 // ------------------------------
 // Project styles
@@ -176,6 +176,10 @@ textarea
 .border-generic
 {
 	border: 2px solid $border-color;
+}
+.project-title
+{
+	margin: 0 0 22px;
 }
 
 // ------------------------------
@@ -194,6 +198,26 @@ button, .button
 	width: 110px;
 }
 
-
-
-
+// ------------------------------
+// Custom separator styles
+// ------------------------------
+.services-separator
+{
+	margin-top: 13px;
+	margin-bottom: 14px;
+}
+.project-separator
+{
+	margin-top: 18px;
+	margin-bottom: 14px;
+}
+.pricing-table-separator
+{
+	margin-top: 19px;
+	margin-bottom: 17px;
+}
+.call-to-action-separator
+{
+	margin-top: 20px;
+	margin-bottom: 14px;
+}
