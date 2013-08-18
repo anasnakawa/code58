@@ -18,17 +18,13 @@
   "../components/scss/foundation/components/pricing-tables",
   "../components/scss/foundation/components/orbit";
 
-// Compass helpers
-@import "compass/css3";
 
-// additional compass plugins
-@import "animate";
 
 // This includes app
 @import "app";
 
 // Custom components and customizations
-@import "slider";
+//@import "slider";
 
 // icon font
 @import "iconfont";
