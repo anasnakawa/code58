@@ -2565,32 +2565,48 @@ textarea {
   border-radius: 10px;
 }
 
-/* line 52, ../scss/_app.scss */
+/* line 53, ../scss/_app.scss */
+.main-menu {
+  border-top: 8px solid #3498db;
+}
+/* line 55, ../scss/_app.scss */
+.main-menu a {
+  padding: 60px 20px 40px;
+  display: block;
+  float: left;
+}
+/* line 61, ../scss/_app.scss */
+.main-menu a.active {
+  background: #3498db;
+  color: #fff;
+}
+
+/* line 70, ../scss/_app.scss */
 .pricing-table {
   border-radius: 10px;
 }
-/* line 56, ../scss/_app.scss */
+/* line 74, ../scss/_app.scss */
 .pricing-table .price {
   font-size: 2.25em;
   min-height: 150px;
 }
-/* line 60, ../scss/_app.scss */
+/* line 78, ../scss/_app.scss */
 .pricing-table .price span {
   font-size: 0.833em;
 }
-/* line 64, ../scss/_app.scss */
+/* line 82, ../scss/_app.scss */
 .pricing-table .price p {
   font-size: 0.5em;
 }
-/* line 68, ../scss/_app.scss */
+/* line 86, ../scss/_app.scss */
 .pricing-table .title {
   border-radius: 10px 10px 0 0;
 }
-/* line 72, ../scss/_app.scss */
+/* line 90, ../scss/_app.scss */
 .pricing-table .cta-button {
   border-radius: 0 0 10px 10px;
 }
-/* line 76, ../scss/_app.scss */
+/* line 94, ../scss/_app.scss */
 .pricing-table button, .pricing-table .pricing-table .button {
   border: none;
   box-shadow: none;
@@ -2599,130 +2615,130 @@ textarea {
   font-size: 1.125em;
 }
 
-/* line 85, ../scss/_app.scss */
+/* line 103, ../scss/_app.scss */
 .special-price {
   font-size: 3.75em;
 }
 
-/* line 89, ../scss/_app.scss */
+/* line 107, ../scss/_app.scss */
 .title > h3 {
   color: #FFF;
   margin: 0;
 }
 
-/* line 97, ../scss/_app.scss */
+/* line 115, ../scss/_app.scss */
 .student.pricing-table {
   border-color: #bdc3c7;
 }
 
-/* line 99, ../scss/_app.scss */
+/* line 117, ../scss/_app.scss */
 .student.pricing-table .title,
 .student .button {
   background-color: #bdc3c7;
 }
 
-/* line 100, ../scss/_app.scss */
+/* line 118, ../scss/_app.scss */
 .student.pricing-table .price {
   background-color: #a6aeb3;
 }
 
-/* line 101, ../scss/_app.scss */
+/* line 119, ../scss/_app.scss */
 .standard.pricing-table {
   border-color: #3498db;
 }
 
-/* line 103, ../scss/_app.scss */
+/* line 121, ../scss/_app.scss */
 .standard.pricing-table .title,
 .standard .button {
   background-color: #3498db;
 }
 
-/* line 104, ../scss/_app.scss */
+/* line 122, ../scss/_app.scss */
 .standard.pricing-table .price {
   background-color: #2980b9;
 }
 
-/* line 105, ../scss/_app.scss */
+/* line 123, ../scss/_app.scss */
 .professional.pricing-table {
   border-color: #f1c40f;
 }
 
-/* line 107, ../scss/_app.scss */
+/* line 125, ../scss/_app.scss */
 .professional.pricing-table .title,
 .professional .button {
   background-color: #f1c40f;
 }
 
-/* line 108, ../scss/_app.scss */
+/* line 126, ../scss/_app.scss */
 .professional.pricing-table .price {
   background-color: #e2b501;
 }
 
-/* line 109, ../scss/_app.scss */
+/* line 127, ../scss/_app.scss */
 .premium.pricing-table {
   border-color: #34495e;
 }
 
-/* line 111, ../scss/_app.scss */
+/* line 129, ../scss/_app.scss */
 .premium.pricing-table .title,
 .premium .button {
   background-color: #34495e;
 }
 
-/* line 112, ../scss/_app.scss */
+/* line 130, ../scss/_app.scss */
 .premium.pricing-table .price {
   background-color: #2c3e50;
 }
 
-/* line 118, ../scss/_app.scss */
+/* line 136, ../scss/_app.scss */
 .dark-row {
   background: #2c3e50;
   line-height: 65px;
   color: #95a5a6;
 }
 
-/* line 124, ../scss/_app.scss */
+/* line 142, ../scss/_app.scss */
 .light-row {
   background: #34495e;
   min-height: 170px;
   padding-top: 30px;
 }
 
-/* line 130, ../scss/_app.scss */
+/* line 148, ../scss/_app.scss */
 .light-row p {
   line-height: 1.125;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 135, ../scss/_app.scss */
+  /* line 153, ../scss/_app.scss */
   .light-row p.center {
     padding-left: 50px;
   }
 }
-/* line 140, ../scss/_app.scss */
+/* line 158, ../scss/_app.scss */
 .row .row.collapse {
   margin: 0 -0.9375em;
 }
 
-/* line 145, ../scss/_app.scss */
+/* line 163, ../scss/_app.scss */
 .footer-font-size,
 .footer-font-size a {
   font-size: 0.75em;
   color: #95A5A6;
 }
 
-/* line 151, ../scss/_app.scss */
+/* line 169, ../scss/_app.scss */
 .subscribe a.button,
 .subscribe input {
   height: 40px;
 }
 
-/* line 155, ../scss/_app.scss */
+/* line 173, ../scss/_app.scss */
 .subscribe input {
   font-size: 0.875em;
 }
 
-/* line 159, ../scss/_app.scss */
+/* line 177, ../scss/_app.scss */
 .subscribe a.button {
   border-radius: 10px;
   border: none;
@@ -2730,185 +2746,68 @@ textarea {
   line-height: 3;
 }
 
-/* line 169, ../scss/_app.scss */
+/* line 187, ../scss/_app.scss */
 .margin-bottom-xlarge {
   margin-bottom: 150px;
 }
 
-/* line 170, ../scss/_app.scss */
+/* line 188, ../scss/_app.scss */
 .margin-bottom-large {
   margin-bottom: 75px;
 }
 
-/* line 171, ../scss/_app.scss */
+/* line 189, ../scss/_app.scss */
 .margin-botom-small {
   margin-bottom: 20px;
 }
 
-/* line 177, ../scss/_app.scss */
+/* line 195, ../scss/_app.scss */
 .border-generic {
   border: 2px solid #3498db;
 }
 
-/* line 181, ../scss/_app.scss */
+/* line 199, ../scss/_app.scss */
 .project-title {
   margin: 0 0 22px;
 }
 
-/* line 189, ../scss/_app.scss */
+/* line 207, ../scss/_app.scss */
 button, .button {
   box-shadow: none;
 }
 
-/* line 193, ../scss/_app.scss */
+/* line 211, ../scss/_app.scss */
 .button-large {
   width: 150px;
 }
 
-/* line 197, ../scss/_app.scss */
+/* line 215, ../scss/_app.scss */
 .button-medium {
   width: 110px;
 }
 
-/* line 205, ../scss/_app.scss */
+/* line 223, ../scss/_app.scss */
 .services-separator {
   margin-top: 13px;
   margin-bottom: 14px;
 }
 
-/* line 210, ../scss/_app.scss */
+/* line 228, ../scss/_app.scss */
 .project-separator {
   margin-top: 18px;
   margin-bottom: 14px;
 }
 
-/* line 215, ../scss/_app.scss */
+/* line 233, ../scss/_app.scss */
 .pricing-table-separator {
   margin-top: 19px;
   margin-bottom: 17px;
 }
 
-/* line 220, ../scss/_app.scss */
+/* line 238, ../scss/_app.scss */
 .call-to-action-separator {
   margin-top: 20px;
   margin-bottom: 14px;
-}
-
-/* line 16, ../scss/_slider.scss */
-.orbit-container {
-  border: 2px solid #3498db;
-  position: relative;
-}
-/* line 26, ../scss/_slider.scss */
-.orbit-container .orbit-prev,
-.orbit-container .orbit-next {
-  -webkit-transition: 0.3s opacity;
-  -moz-transition: 0.3s opacity;
-  -o-transition: 0.3s opacity;
-  transition: 0.3s opacity;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  -ms-border-radius: 40px;
-  -o-border-radius: 40px;
-  border-radius: 40px;
-  background-color: rgba(52, 152, 219, 0.5);
-  width: 60px;
-}
-/* line 34, ../scss/_slider.scss */
-.orbit-container .orbit-prev {
-  left: 10px;
-}
-/* line 36, ../scss/_slider.scss */
-.orbit-container .orbit-prev span {
-  left: 5px;
-}
-/* line 41, ../scss/_slider.scss */
-.orbit-container .orbit-next {
-  right: 10px;
-}
-/* line 43, ../scss/_slider.scss */
-.orbit-container .orbit-next span {
-  right: 5px;
-}
-/* line 50, ../scss/_slider.scss */
-.orbit-container:hover .orbit-next,
-.orbit-container:hover .orbit-prev {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-}
-/* line 57, ../scss/_slider.scss */
-.orbit-container .orbit-timer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  top: auto;
-  width: 100%;
-}
-/* line 64, ../scss/_slider.scss */
-.orbit-container .orbit-timer .orbit-progress {
-  background-color: rgba(52, 152, 219, 0.5);
-}
-/* line 73, ../scss/_slider.scss */
-.orbit-container .orbit-slides-container .orbit-caption {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 300px;
-  bottom: auto;
-  height: auto;
-  color: white;
-  background-color: rgba(52, 152, 219, 0.5);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-}
-/* line 88, ../scss/_slider.scss */
-.orbit-container .orbit-slide-number {
-  visibility: hidden;
-}
-
-/* line 95, ../scss/_slider.scss */
-.orbit-bullets {
-  top: -40px;
-  display: inline-block;
-  float: right;
-  right: 20px;
-  -webkit-transition: 0.3s opacity;
-  -moz-transition: 0.3s opacity;
-  -o-transition: 0.3s opacity;
-  transition: 0.3s opacity;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
-}
-/* line 103, ../scss/_slider.scss */
-.orbit-bullets li {
-  background-color: transparent;
-  border-color: #3498db;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5;
-  cursor: pointer;
-}
-/* line 109, ../scss/_slider.scss */
-.orbit-bullets li.active {
-  background-color: white;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-}
-/* line 114, ../scss/_slider.scss */
-.orbit-bullets li:hover {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-}
-
-/* line 122, ../scss/_slider.scss */
-.orbit-container:hover + .orbit-bullets,
-.orbit-bullets:hover {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
 }
 
 @font-face {
