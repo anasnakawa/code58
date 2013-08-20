@@ -2540,73 +2540,73 @@ small.error {
     display: block;
   }
 }
-/* line 30, ../scss/_app.scss */
+/* line 32, ../scss/_app.scss */
 html, body {
   color: #bdc3c7;
 }
 
-/* line 34, ../scss/_app.scss */
+/* line 36, ../scss/_app.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
 }
 
-/* line 37, ../scss/_app.scss */
+/* line 39, ../scss/_app.scss */
 p {
   font-size: 1.125em;
 }
 
-/* line 41, ../scss/_app.scss */
+/* line 43, ../scss/_app.scss */
 textarea {
   height: 120px;
 }
 
-/* line 45, ../scss/_app.scss */
+/* line 47, ../scss/_app.scss */
 .rounded {
   border-radius: 10px;
 }
 
-/* line 53, ../scss/_app.scss */
+/* line 55, ../scss/_app.scss */
 .main-menu {
   border-top: 8px solid #3498db;
 }
-/* line 55, ../scss/_app.scss */
+/* line 57, ../scss/_app.scss */
 .main-menu a {
   padding: 60px 20px 40px;
   display: block;
   float: left;
 }
-/* line 61, ../scss/_app.scss */
+/* line 63, ../scss/_app.scss */
 .main-menu a.active {
   background: #3498db;
   color: #fff;
 }
 
-/* line 70, ../scss/_app.scss */
+/* line 72, ../scss/_app.scss */
 .pricing-table {
   border-radius: 10px;
 }
-/* line 74, ../scss/_app.scss */
+/* line 76, ../scss/_app.scss */
 .pricing-table .price {
   font-size: 2.25em;
   min-height: 150px;
 }
-/* line 78, ../scss/_app.scss */
+/* line 80, ../scss/_app.scss */
 .pricing-table .price span {
   font-size: 0.833em;
 }
-/* line 82, ../scss/_app.scss */
+/* line 84, ../scss/_app.scss */
 .pricing-table .price p {
   font-size: 0.5em;
 }
-/* line 86, ../scss/_app.scss */
+/* line 88, ../scss/_app.scss */
 .pricing-table .title {
   border-radius: 10px 10px 0 0;
 }
-/* line 90, ../scss/_app.scss */
+/* line 92, ../scss/_app.scss */
 .pricing-table .cta-button {
   border-radius: 0 0 10px 10px;
 }
-/* line 94, ../scss/_app.scss */
+/* line 96, ../scss/_app.scss */
 .pricing-table button, .pricing-table .pricing-table .button {
   border: none;
   box-shadow: none;
@@ -2615,130 +2615,130 @@ textarea {
   font-size: 1.125em;
 }
 
-/* line 103, ../scss/_app.scss */
+/* line 105, ../scss/_app.scss */
 .special-price {
   font-size: 3.75em;
 }
 
-/* line 107, ../scss/_app.scss */
+/* line 109, ../scss/_app.scss */
 .title > h3 {
   color: #FFF;
   margin: 0;
 }
 
-/* line 115, ../scss/_app.scss */
+/* line 117, ../scss/_app.scss */
 .student.pricing-table {
   border-color: #bdc3c7;
 }
 
-/* line 117, ../scss/_app.scss */
+/* line 119, ../scss/_app.scss */
 .student.pricing-table .title,
 .student .button {
   background-color: #bdc3c7;
 }
 
-/* line 118, ../scss/_app.scss */
+/* line 120, ../scss/_app.scss */
 .student.pricing-table .price {
   background-color: #a6aeb3;
 }
 
-/* line 119, ../scss/_app.scss */
+/* line 121, ../scss/_app.scss */
 .standard.pricing-table {
   border-color: #3498db;
 }
 
-/* line 121, ../scss/_app.scss */
+/* line 123, ../scss/_app.scss */
 .standard.pricing-table .title,
 .standard .button {
   background-color: #3498db;
 }
 
-/* line 122, ../scss/_app.scss */
+/* line 124, ../scss/_app.scss */
 .standard.pricing-table .price {
   background-color: #2980b9;
 }
 
-/* line 123, ../scss/_app.scss */
+/* line 125, ../scss/_app.scss */
 .professional.pricing-table {
   border-color: #f1c40f;
 }
 
-/* line 125, ../scss/_app.scss */
+/* line 127, ../scss/_app.scss */
 .professional.pricing-table .title,
 .professional .button {
   background-color: #f1c40f;
 }
 
-/* line 126, ../scss/_app.scss */
+/* line 128, ../scss/_app.scss */
 .professional.pricing-table .price {
   background-color: #e2b501;
 }
 
-/* line 127, ../scss/_app.scss */
+/* line 129, ../scss/_app.scss */
 .premium.pricing-table {
   border-color: #34495e;
 }
 
-/* line 129, ../scss/_app.scss */
+/* line 131, ../scss/_app.scss */
 .premium.pricing-table .title,
 .premium .button {
   background-color: #34495e;
 }
 
-/* line 130, ../scss/_app.scss */
+/* line 132, ../scss/_app.scss */
 .premium.pricing-table .price {
   background-color: #2c3e50;
 }
 
-/* line 136, ../scss/_app.scss */
+/* line 138, ../scss/_app.scss */
 .dark-row {
   background: #2c3e50;
   line-height: 65px;
   color: #95a5a6;
 }
 
-/* line 142, ../scss/_app.scss */
+/* line 144, ../scss/_app.scss */
 .light-row {
   background: #34495e;
   min-height: 170px;
   padding-top: 30px;
 }
 
-/* line 148, ../scss/_app.scss */
+/* line 150, ../scss/_app.scss */
 .light-row p {
   line-height: 1.125;
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 153, ../scss/_app.scss */
+  /* line 155, ../scss/_app.scss */
   .light-row p.center {
     padding-left: 50px;
   }
 }
-/* line 158, ../scss/_app.scss */
+/* line 160, ../scss/_app.scss */
 .row .row.collapse {
   margin: 0 -0.9375em;
 }
 
-/* line 163, ../scss/_app.scss */
+/* line 165, ../scss/_app.scss */
 .footer-font-size,
 .footer-font-size a {
   font-size: 0.75em;
   color: #95A5A6;
 }
 
-/* line 169, ../scss/_app.scss */
+/* line 171, ../scss/_app.scss */
 .subscribe a.button,
 .subscribe input {
   height: 40px;
 }
 
-/* line 173, ../scss/_app.scss */
+/* line 175, ../scss/_app.scss */
 .subscribe input {
   font-size: 0.875em;
 }
 
-/* line 177, ../scss/_app.scss */
+/* line 179, ../scss/_app.scss */
 .subscribe a.button {
   border-radius: 10px;
   border: none;
@@ -2746,65 +2746,65 @@ textarea {
   line-height: 3;
 }
 
-/* line 187, ../scss/_app.scss */
+/* line 189, ../scss/_app.scss */
 .margin-bottom-xlarge {
   margin-bottom: 150px;
 }
 
-/* line 188, ../scss/_app.scss */
+/* line 190, ../scss/_app.scss */
 .margin-bottom-large {
   margin-bottom: 75px;
 }
 
-/* line 189, ../scss/_app.scss */
+/* line 191, ../scss/_app.scss */
 .margin-botom-small {
   margin-bottom: 20px;
 }
 
-/* line 195, ../scss/_app.scss */
+/* line 197, ../scss/_app.scss */
 .border-generic {
   border: 2px solid #3498db;
 }
 
-/* line 199, ../scss/_app.scss */
+/* line 201, ../scss/_app.scss */
 .project-title {
   margin: 0 0 22px;
 }
 
-/* line 207, ../scss/_app.scss */
+/* line 209, ../scss/_app.scss */
 button, .button {
   box-shadow: none;
 }
 
-/* line 211, ../scss/_app.scss */
+/* line 213, ../scss/_app.scss */
 .button-large {
   width: 150px;
 }
 
-/* line 215, ../scss/_app.scss */
+/* line 217, ../scss/_app.scss */
 .button-medium {
   width: 110px;
 }
 
-/* line 223, ../scss/_app.scss */
+/* line 225, ../scss/_app.scss */
 .services-separator {
   margin-top: 13px;
   margin-bottom: 14px;
 }
 
-/* line 228, ../scss/_app.scss */
+/* line 230, ../scss/_app.scss */
 .project-separator {
   margin-top: 18px;
   margin-bottom: 14px;
 }
 
-/* line 233, ../scss/_app.scss */
+/* line 235, ../scss/_app.scss */
 .pricing-table-separator {
   margin-top: 19px;
   margin-bottom: 17px;
 }
 
-/* line 238, ../scss/_app.scss */
+/* line 240, ../scss/_app.scss */
 .call-to-action-separator {
   margin-top: 20px;
   margin-bottom: 14px;
@@ -2818,17 +2818,16 @@ button, .button {
   font-style: normal;
 }
 
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
-/* line 13, ../scss/_iconfont.scss */
+/* Use the following CSS code if you want to use data attributes for inserting your icons 
 [data-icon]:before {
-  font-family: 'icomoon';
-  content: attr(data-icon);
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
 }
 
 /* Use the following CSS code if you want to have a class per icon */
@@ -2852,9 +2851,11 @@ you can use the generic selector below, but it's slower:
 /* line 40, ../scss/_iconfont.scss */
 .icon-checkmark:before {
   content: "\e000";
+  color: #1abc9c;
 }
 
-/* line 43, ../scss/_iconfont.scss */
+/* line 44, ../scss/_iconfont.scss */
 .icon-close:before {
   content: "\e001";
+  color: #e74c3c;
 }

@@ -9,7 +9,7 @@
 	font-style: normal;
 }
 
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
+/* Use the following CSS code if you want to use data attributes for inserting your icons 
 [data-icon]:before {
 	font-family: 'icomoon';
 	content: attr(data-icon);
@@ -39,7 +39,9 @@ you can use the generic selector below, but it's slower:
 }
 .icon-checkmark:before {
 	content: "\e000";
+	color: $tik-color;
 }
 .icon-close:before {
 	content: "\e001";
+	color: $cross-color;
 }
