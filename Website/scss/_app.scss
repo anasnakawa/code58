@@ -43,6 +43,10 @@ textarea
 {
 	height: 120px;
 }
+ul
+{
+	list-style: none;
+}
 .rounded
 {
 	@include rounded;
