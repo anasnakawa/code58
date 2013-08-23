@@ -2540,34 +2540,6 @@ small.error {
     display: block;
   }
 }
-/* Image Thumbnails */
-/* line 45, ../components/scss/foundation/components/_thumbs.scss */
-.th {
-  line-height: 0;
-  display: inline-block;
-  border: solid 4px white;
-  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
-  -webkit-transition: all 200ms ease-out;
-  -moz-transition: all 200ms ease-out;
-  transition: all 200ms ease-out;
-}
-/* line 32, ../components/scss/foundation/components/_thumbs.scss */
-.th:hover, .th:focus {
-  -webkit-box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5);
-  box-shadow: 0 0 6px 1px rgba(43, 166, 203, 0.5);
-}
-/* line 49, ../components/scss/foundation/components/_thumbs.scss */
-.th.radius {
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-}
-
-/* line 51, ../components/scss/foundation/components/_thumbs.scss */
-a.th {
-  display: inline-block;
-}
-
 /* line 32, ../scss/_app.scss */
 html, body {
   color: #bdc3c7;
@@ -2804,40 +2776,59 @@ ul {
   margin: 0 0 22px;
 }
 
-/* line 213, ../scss/_app.scss */
+/* line 209, ../scss/_app.scss */
+.navigation {
+  display: inline;
+  float: right;
+  border: 2px solid #3498db;
+  background: #3498db;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.25em;
+  line-height: 0.7em;
+  margin-right: 5px;
+  padding: 5px;
+}
+
+/* line 222, ../scss/_app.scss */
+.navigation:first-child {
+  margin-right: 0;
+}
+
+/* line 229, ../scss/_app.scss */
 button, .button {
   box-shadow: none;
 }
 
-/* line 217, ../scss/_app.scss */
+/* line 233, ../scss/_app.scss */
 .button-large {
   width: 150px;
 }
 
-/* line 221, ../scss/_app.scss */
+/* line 237, ../scss/_app.scss */
 .button-medium {
   width: 110px;
 }
 
-/* line 229, ../scss/_app.scss */
+/* line 245, ../scss/_app.scss */
 .services-separator {
   margin-top: 13px;
   margin-bottom: 14px;
 }
 
-/* line 234, ../scss/_app.scss */
+/* line 250, ../scss/_app.scss */
 .project-separator {
   margin-top: 18px;
   margin-bottom: 14px;
 }
 
-/* line 239, ../scss/_app.scss */
+/* line 255, ../scss/_app.scss */
 .pricing-table-separator {
   margin-top: 19px;
   margin-bottom: 17px;
 }
 
-/* line 244, ../scss/_app.scss */
+/* line 260, ../scss/_app.scss */
 .call-to-action-separator {
   margin-top: 20px;
   margin-bottom: 14px;
