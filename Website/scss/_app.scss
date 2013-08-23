@@ -215,12 +215,17 @@ ul
 	color: #fff;
 	font-size: 1.25em;
 	line-height: 0.7em;
-	margin-right: 5px;
+	margin: -5px 5px 10px 0;
 	padding: 5px;
 }
 .navigation:first-child
 {
 	margin-right: 0;
+}
+.navigation:hover
+{
+	color: #fff;
+	//transion and more styles in here
 }
 // ------------------------------
 // buttons styles
