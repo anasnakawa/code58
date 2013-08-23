@@ -2,29 +2,26 @@
 @charset "UTF-8";
 
 // This includes normalize
-@import "../components/scss/normalize";
+@import "scss/normalize";
 
 // This includes all of the Overwrited foundation global elements that are needed to work with any of the other files.
-@import "foundation-variables";
+@import "libs/foundation-variables";
 
 // Foundation Components
 @import
-
-  "../components/scss/foundation/components/global",
-  "../components/scss/foundation/components/grid",
-  "../components/scss/foundation/components/type",
-  "../components/scss/foundation/components/buttons",
-  "../components/scss/foundation/components/forms",
-  "../components/scss/foundation/components/pricing-tables",
-  "../components/scss/foundation/components/orbit";
-
-
+  "scss/foundation/components/global",
+  "scss/foundation/components/grid",
+  "scss/foundation/components/type",
+  "scss/foundation/components/buttons",
+  "scss/foundation/components/forms",
+  "scss/foundation/components/pricing-tables",
+  "scss/foundation/components/orbit";
 
 // This includes app
-@import "app";
+@import "code58/app";
 
 // Custom components and customizations
 //@import "slider";
 
 // icon font
-@import "iconfont";
+@import "libs/iconfont";

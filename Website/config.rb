@@ -24,3 +24,6 @@ output_style = :expanded
 # preferred_syntax = :sass
 # and then run:
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
+
+# Call this function to add a path to the list of sass import paths for your compass project
+add_import_path "../components"

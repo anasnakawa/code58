@@ -1,0 +1,88 @@
+// ------------------------------
+// Pricing table seciton
+// ------------------------------
+
+// ------------------------------
+// table of content
+// ------------------------------
+// Price table parameters
+// Price table generic styles
+// Price table - custom style for each one
+// ------------------------------
+
+// ------------------------------
+// Price table parameters
+// ------------------------------
+$price-table-student-light-color: #bdc3c7;
+$price-table-student-dark-color: #a6aeb3;
+$price-table-standard-light-color: #3498db;
+$price-table-standard-dark-color: #2980b9;
+$price-table-professional-light-color: #f1c40f;
+$price-table-professional-dark-color: #e2b501;
+$price-table-premium-light-color: #34495e;
+$price-table-premium-dark-color: #2c3e50;
+
+// ------------------------------
+// Price table generic styles
+// ------------------------------
+.pricing-table {
+	
+	@include rounded;
+
+	.price {
+		font-size: 2.25em;
+		min-height: 150px;
+		
+		span {
+			font-size: 0.833em;
+		}
+
+		p {
+			font-size: 0.5em;
+		}
+	}
+	.title {
+		@include rounded-border(10px, 10px, 0, 0);
+	}
+
+	.cta-button {
+	@include rounded-border(0, 0, 10px, 10px);
+	}
+
+	button,.pricing-table .button {
+	border: none;
+	box-shadow: none;
+	border-radius: 5px;
+	width: 150px;
+	font-size: 1.125em;
+	}
+}
+
+.special-price{
+	font-size: 3.75em;
+}
+.title > h3
+{
+	color:#FFF;
+	margin:0;
+}
+
+// ------------------------------
+// Price table - custom style for each one
+// ------------------------------
+.student.pricing-table{border-color: $price-table-student-light-color;}
+.student.pricing-table .title,
+.student .button{background-color: $price-table-student-light-color;}
+.student.pricing-table .price{background-color: $price-table-student-dark-color;}
+.standard.pricing-table{border-color: $price-table-standard-light-color;}
+.standard.pricing-table .title,
+.standard .button{background-color: $price-table-standard-light-color;}
+.standard.pricing-table .price{background-color: $price-table-standard-dark-color;}
+.professional.pricing-table{border-color: $price-table-professional-light-color;}
+.professional.pricing-table .title,
+.professional .button{background-color: $price-table-professional-light-color;}
+.professional.pricing-table .price{background-color: $price-table-professional-dark-color;}
+.premium.pricing-table{border-color: $price-table-premium-light-color;}
+.premium.pricing-table .title,
+.premium .button{background-color: $price-table-premium-light-color;}
+.premium.pricing-table .price{background-color: $price-table-premium-dark-color;}

@@ -1,0 +1,17 @@
+// ------------------------------
+// Main menu
+// ------------------------------
+.main-menu
+{
+	border-top: 8px solid $border-color;
+	a{
+		padding: 60px 20px 40px;
+		display: block;
+		float: left;
+	}
+
+	a.active{
+		background: $border-color;
+		color: #fff;
+	}
+}
