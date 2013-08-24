@@ -12,6 +12,7 @@ Thumbs.db
 
 # Node js
 node_modules
+npm-debug.log
 
 # Always-ignore extensions
 *~
@@ -24,3 +25,10 @@ node_modules
 *.sass-cache
 *.sw?
 *.vi
+
+# editor files
+*.sublime-workspace
+
+# sass / compass cache
+*.scssc
+.sass-cache/

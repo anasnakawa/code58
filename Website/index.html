@@ -9,25 +9,26 @@
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width" />
    <title>Code58</title>
-   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
    <link rel="stylesheet" href="css/style.css" />
-   <link href="components/components-font-awesome/css/font-awesome.min.css" />
+   <link rel="stylesheet" href="components/components-font-awesome/css/font-awesome.min.css" />
    <script src="components/modernizr/modernizr.js"></script>
 </head>
 <body>
    <!-- Header -->   
    <header class="main-menu">
       <div class="row">
-         <a href="#"> <img class="left" alt="code58" src="img/logo.png"> </a>
+         <a class="brand" href="#"> <img class="left" alt="code58" src="img/logo.png"> </a>
          <!-- Nav -->
-         <nav class="right">
+         <nav class="nav right">
           <a href="#" class="active">Home</a>
           <a href="#">Services</a>
           <a href="#">Portfolio</a>
           <a href="#">Pricing</a>
           <a href="#">Contact Us</a>
        </nav>
-       <!-- End Nav --> 
+       <!-- End Nav -->
+       <hr /> 
     </div>
  </header>
  <!-- End Header --> 
@@ -60,27 +61,36 @@
 </section>
 <!-- End Slider --> 
 <!-- Services -->
-<section>
+<section class="services">
    <div class="row text-center">
       <h2>Services</h2>
    </div>
    <div class="row">
       <section class="large-4 columns text-center">
-         <img src="img/html5.png" alt="built with latest html5, css3 technologies">
+         <div class="circle-big">
+            <i class="icon-html5"></i>
+         </div>
+         <!-- img src="img/html5.png" alt="built with latest html5, css3 technologies" -->
          <h3>built with latest html5, css3 technologies</h3>
       </section>
       <section class="large-4 columns text-center">
-         <img src="img/responsive.png" alt="Resposive design utilized perfectly for any device">
+         <div class="circle-big">
+            <i class="icon-mobile-phone"></i>
+         </div>
+         <!-- img src="img/responsive.png" alt="Resposive design utilized perfectly for any device" -->
          <h3>Resposive design utilized perfectly for any device</h3>
       </section>
       <section class="large-4 columns text-center">
-         <img src="img/code.png" alt="Well written and commented clean code">
+         <div class="circle-big">
+            <i class="icon-code"></i>
+         </div>
+         <!-- img src="img/code.png" alt="Well written and commented clean code" -->
          <h3>Well written and commented clean code</h3>
       </section>
    </div>
 </section>
 <!-- End Services --> 
-<div class="row services-separator">
+<div class="row">
    <hr/>
 </div>
 <!-- Projects -->
@@ -88,8 +98,8 @@
    <div class="row text-center">
       <div class="larger-12 columns">
       <h2>Projects</h2>
-      <a class="navigation">></a>
-      <a class="navigation"><</a>
+      <a class="navigation"><i class="icon-angle-right"></i></a>
+      <a class="navigation"><i class="icon-angle-left"></i></a>
    </div>
    </div>
    <div class="row">
@@ -116,7 +126,7 @@
    </div>
 </section>
 <!-- End Projects --> 
-<div class="row project-separator">
+<div class="row">
    <hr/>
 </div>
 <!-- Pricing Table -->
@@ -124,31 +134,31 @@
    <h2>Plans and Pricings</h2>
 </div>
 <div class="row">
-   <div class=" large-3 columns">
+   <div class="large-3 columns">
       <ul class="pricing-table student">
          <li class="title">Student</li>
          <li class="price">Free</li>
          <li class="description">An awesome description</li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-checkmark left"></span>
+            <span aria-hidden="true" class="icon-ok left"></span>
             Some Features
          </li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-close left"></span>
+            <span aria-hidden="true" class="icon-ok left"></span>
             Some Features
          </li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-close left"></span>
+            <span aria-hidden="true" class="icon-ok left"></span>
             Some Features
          </li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-close left"></span>
+            <span aria-hidden="true" class="icon-remove left"></span>
             Some Features
          </li>
          <li class="cta-button"><a class="button rounded" href="#">Sign Up</a></li>
       </ul>
    </div>
-   <div class=" large-3 columns">
+   <div class="large-3 columns">
       <ul class="pricing-table standard">
          <li class="title largtext">Standard</li>
          <li class="price">
@@ -157,19 +167,19 @@
          </li>
          <li class="description">An awesome description</li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-checkmark left"></span>
+            <span aria-hidden="true" class="icon-ok left"></span>
             Some Features
          </li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-checkmark left"></span>
+            <span aria-hidden="true" class="icon-ok left"></span>
             Some Features
          </li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-close left"></span>
+            <span aria-hidden="true" class="icon-ok left"></span>
             Some Features
          </li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-close left"></span>
+            <span aria-hidden="true" class="icon-remove left"></span>
             Some Features
          </li>
          <li class="cta-button"><a class="button rounded" href="#">Sign Up</a></li>
@@ -184,19 +194,19 @@
          </li>
          <li class="description">An awesome description</li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-checkmark left"></span>
+            <span aria-hidden="true" class="icon-ok left"></span>
             Some Features
          </li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-checkmark left"></span>
+            <span aria-hidden="true" class="icon-ok left"></span>
             Some Features
          </li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-checkmark left"></span>
+            <span aria-hidden="true" class="icon-ok left"></span>
             Some Features
          </li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-close left"></span>
+            <span aria-hidden="true" class="icon-remove left"></span>
             Some Features
          </li>
          <li class="cta-button"><a class="button rounded" href="#">Sign Up</a></li>
@@ -211,19 +221,19 @@
          </li>
          <li class="description">An awesome description</li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-checkmark left"></span>
+            <span aria-hidden="true" class="icon-ok left"></span>
             Some Features
          </li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-checkmark left"></span>
+            <span aria-hidden="true" class="icon-ok left"></span>
             Some Features
          </li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-checkmark left"></span>
+            <span aria-hidden="true" class="icon-ok left"></span>
             Some Features
          </li>
          <li class="bullet-item">
-            <span aria-hidden="true" class="icon-checkmark left"></span>
+            <span aria-hidden="true" class="icon-ok left"></span>
             Some Features
          </li>
          <li class="cta-button"><a class="button rounded" href="#">Sign Up</a></li>
@@ -231,19 +241,18 @@
    </div>
 </div>
 <!-- End Pricing Table --> 
-<div class="row pricing-table-separator">
+<div class="row">
    <hr/>
 </div>
 <!-- End Call to action -->
-<div class="row">
+<div class="row call-to-action">
    <section>
       <h4> Code58 is multi purpose responsive theme! </h4>
-      <p>Loaded with portfolio, multi colors, and 2 layout option & much more! </p>
-      <a href="#" class="button alert rounded">Buy Now</a> 
+      <a href="#" class="button rounded">Buy Now</a> 
    </section>
 </div>
 <!-- End Call to action --> 
-<div class="row call-to-action-separator">
+<div class="row">
    <hr/>
 </div>
 <!-- Contact us -->
@@ -281,7 +290,7 @@
    </div>
 
    <div class="columns large-6">
-      <!-- Google Map 
+      <!-- Google Map
       <iframe class="border-generic" width="468" height="386" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=dubai+internet+city&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=47.301626,93.076172&amp;ie=UTF8&amp;hq=dubai+internet+city&amp;t=m&amp;ll=25.093839,55.17643&amp;spn=0.055965,0.080338&amp;z=13&amp;output=embed"></iframe>
       <!-- End Google Map --> 
    </div>
@@ -289,64 +298,71 @@
 <!-- End Contact us -->
 
 
-<footer>
+<footer class="footer">
 
    <div class="light-row">
       <div class="row">
-         <div class="columns large-4">
+         <div class="columns large-4 newsletter">
             <div class="row">
-             <p>Subscribe to our email newsletter to receive our news</p>
-          </div>
-          <div class="row collapse subscribe">
-             <div class="small-8 columns">
-               <input type="text" class="rounded" placeholder="enter your email address" required>
+               <h3>Updates</h3>
+                <p>Subscribe to our email newsletter to receive our news</p>
+             </div>
+             <div class="row collapse subscribe">
+                <div class="small-8 columns">
+                  <input type="text" class="rounded" placeholder="enter your email address" required>
+               </div>
+               <div class="small-4 columns">
+                  <a class="button prefix rounded" href="#">Subscribe</a>
+               </div>
             </div>
-            <div class="small-4 columns">
-               <a class="button prefix rounded" href="#">Subscribe</a>
+         </div>
+
+         <div class="large-4 columns social">
+            <h3 class="columns">Social</h3>
+            <div class="small-6 columns">
+               <ul>
+                  <li><a href="#"><i class="icon-twitter-sign"></i> Twitter</a></li>
+                  <li><a href="#"><i class="icon-facebook-sign"></i> Facebook</a></li>
+                  <li><a href="#"><i class="icon-instagram"></i> Instagram</a></li>
+                  <li><a href="#"><i class="icon-pinterest-sign"></i> Pinterest</a></li>
+               </ul>
+            </div>
+            <div class="small-6 columns">
+               <ul>
+                  <li><a href="#"><i class="icon-linkedin-sign"></i> Linkedin</a></li>
+                  <li><a href="#"><i class="icon-google-plus-sign"></i> Google+</a></li>
+                  <li><a href="#"><i class="icon-github-sign"></i> Github</a></li>
+               </ul>
+            </div>
+         </div>
+
+         <div class="columns large-4 contact">
+            <h3>Contact Us</h3>
+            <p>Dubai Internet City, D10927<br/>
+               Dubai,<br/>
+               United Arab Emirates<br/>
+            </p>
+            <p>
+               Email: info@code58.com<br/>
+               Phone: (971) 5555-555-55<br/>
+               Fax: (971) 5555-555-56
+            </p>
+         </div>
+      </div>
+
+      <div class="dark-row">
+         <div class="row">
+            <div class="large-6 columns text-left">
+               <span class="footer-font-size">&copy; Copyright 2013 Code58 | All Rights Reserved</span>
+            </div>
+            <div class="large-6 columns text-right">
+               <a class="footer-font-size" href="#">Terms of Use</a> | 
+               <a class="footer-font-size" href="#">Privacy Policy</a>
             </div>
          </div>
       </div>
-
-      <div class="large-4 columns">
-         <div class="small-6 columns">
-         <ul class="right">
-         <li><a href="#">Twitter</a></li>
-         <li><a href="#">Facebook</a></li>
-         <li><a href="#">Instagram</a></li>
-         <li><a href="#">Pinterest</a></li>
-      </ul>
-      </div>
-      <div class="small-6 columns">
-         <ul>
-         <li><a href="#">Linkedin</a></li>
-         <li><a href="#">Google+</a></li>
-         <li><a href="#">Github</a></li>
-      </ul>
-   </div>
-      </div>
-
-      <div class="columns large-4">
-         <p>Dubai Internet City, D10927<br/>
-            Dubai,<br/>
-            United Arab Emirates<br/>
-            Email: info@code58.com<br/>
-            Phone: (971) 5555-555-55<br/>
-            Fax: (971) 5555-555-56
-         </p>
-      </div>
    </div>
 
-   <div class="dark-row">
-      <div class="row">
-         <div class="large-6 columns text-left">
-            <span class="footer-font-size">&copy; Copyright 2013 Code58 | All Rights Reserved</span>
-         </div>
-         <div class="large-6 columns text-right">
-            <a class="footer-font-size" href="#">Terms of Use</a> | 
-            <a class="footer-font-size" href="#">Privacy Policy</a>
-         </div>
-      </div>
-   </div>
 </footer>
 <!-- js files -->
 <script src="components/jquery/jquery.js"></script>

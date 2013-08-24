@@ -1,27 +1,27 @@
 // Make sure the charset is set appropriately
 @charset "UTF-8";
 
-// This includes normalize
-@import "scss/normalize";
+// located in components folder
+@import "foundation/scss/normalize";
+
+// our config to be able to utilize them in foundation
+@import "code58/config";
 
 // This includes all of the Overwrited foundation global elements that are needed to work with any of the other files.
-@import "libs/foundation-variables";
+@import "override/foundation-variables";
 
-// Foundation Components
+// Foundation Components located in components folder
 @import
-  "scss/foundation/components/global",
-  "scss/foundation/components/grid",
-  "scss/foundation/components/type",
-  "scss/foundation/components/buttons",
-  "scss/foundation/components/forms",
-  "scss/foundation/components/pricing-tables",
-  "scss/foundation/components/orbit";
+  "foundation/scss/foundation/components/global",
+  "foundation/scss/foundation/components/grid",
+  "foundation/scss/foundation/components/type",
+  "foundation/scss/foundation/components/buttons",
+  "foundation/scss/foundation/components/forms",
+  "foundation/scss/foundation/components/pricing-tables",
+  "foundation/scss/foundation/components/orbit";
 
-// This includes app
+// code58 main site file
 @import "code58/app";
 
-// Custom components and customizations
-//@import "slider";
-
 // icon font
-@import "libs/iconfont";
+// @import "libs/iconfont";

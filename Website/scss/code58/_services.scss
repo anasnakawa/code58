@@ -1,0 +1,26 @@
+// ------------------------------
+// services
+// ------------------------------
+
+.services {
+
+	$services-circle-size: 160px;
+
+	.circle-big {
+		@include border-radius(50%);
+		background-color: $code58-blue;
+		padding: 20px;
+		font-size: 80px;
+		color: white;
+		width: $services-circle-size;
+		height: $services-circle-size;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+
+		i {
+			position: relative;
+			top: 10%;
+		}
+	}
+}

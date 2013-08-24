@@ -3,11 +3,86 @@
 // site through this file
 // ------------------------------
 
+// typography settings
 // ------------------------------
-// Generic parameters
+$code58-font-family: "Open Sans";
+$code58-font-weight:	300; 
+
+// template color pallete
 // ------------------------------
-$border-color: #3498db;
-$footer-dark-color: #2c3e50;
-$footer-light-color: #34495e;
-$tik-color: #1abc9c;
-$cross-color: #e74c3c;
+// gray vairations
+$code58-almost-white: #fbfcfc;
+$code58-clouds: #ecf0f1;
+$code58-zilver: #bdc3c7;
+$code58-asbistos: #7f8c8d;
+$code58-concrete: #95a5a6;
+$code58-mid-black: #4c4c4d;
+$code58-zilver-dark: #a6aeb3;
+
+// red
+$code58-alizarin: #e74c3c;
+$code58-pomegranate: #c0392b;
+
+// oragne
+$code58-carrot: #e67e22;
+$code58-pumpkin: #d35400;
+
+// yellow
+$code58-sunflower: #f1c40f;
+$code58-dark-sunflower: #f39c12;
+
+// green
+$code58-emerald: #2ecc71;
+$code58-nephritis: #27ae60;
+
+// green to blue
+$code58-turquoise: #1abc9c;
+$code58-green-sea: #16a085;
+
+// blue
+$code58-peter-river: #3498db;
+$code58-belize-hole: #2980b9;
+
+// mid night blue
+$code58-light-mid-night-blue: #34495e;
+$code58-mid-night-blue: #2c3e50;
+
+// violet
+$code58-amethyst: #9b59b6;
+$code58-wisteria: #8e44ad;
+
+// aliasing colors
+// ------------------------------
+$code58-white 						: $code58-almost-white;
+$code58-black 						: $code58-mid-black;
+
+$code58-light-gray 				: $code58-clouds;
+$code58-gray 							: $code58-asbistos;
+$code58-dark-gray 				: $code58-concrete;
+
+$code58-silver 						: $code58-zilver;
+$code58-dark-silver 			: $code58-zilver-dark;
+
+$code58-red 							: $code58-alizarin;
+$code58-dark-red 					: $code58-pomegranate;
+
+$code58-orange 						: $code58-carrot;
+$code58-dark-orange 			: $code58-pumpkin;
+
+$code58-yellow 						: $code58-sunflower;
+$code58-dark-yellow 			: $code58-dark-sunflower;
+
+$code58-green 						: $code58-emerald;
+$code58-dark-green 				: $code58-nephritis;
+
+$code58-green-ocean 		 	: $code58-turquoise;
+$code58-dark-green-ocean 	: $code58-green-sea;
+
+$code58-blue 							: $code58-peter-river;
+$code58-dark-blue 				: $code58-belize-hole;
+
+$code58-blue-night 				: $code58-light-mid-night-blue;
+$code58-dark-blue-night 	: $code58-mid-night-blue;
+
+$code58-violet 						: $code58-amethyst;
+$code58-dark-violet 			: $code58-wisteria;

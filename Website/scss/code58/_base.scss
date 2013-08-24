@@ -12,109 +12,93 @@
 // Custom separator styles
 // ------------------------------
 
-// ------------------------------
 // Generic styles
 // ------------------------------
-html, body
-{
-  color: #bdc3c7; 
+html, body {
+  color: $code58-silver; 
 }
-h1, h2, h3, h4, h5, h6 
-{
+
+@include headers {
 	margin-bottom: 1em;
 }
-p{
+
+p {
 	font-size: 1.125em;
 }
-textarea
-{
+
+textarea {
 	height: 120px;
 }
-ul
-{
+
+ul {
 	list-style: none;
 }
-.rounded
-{
+
+hr {
+	border-color: #f5f7f8;
+}
+
+.rounded {
 	@include rounded;
 }
 
-// ------------------------------
 // Margin between sections
 // ------------------------------
-.margin-bottom-xlarge {margin-bottom: 150px;}
-.margin-bottom-large {margin-bottom: 75px;}
-.margin-botom-small{margin-bottom: 20px;}
+.margin-bottom-xlarge {
+	margin-bottom: 150px;
+}
 
-// ------------------------------
+.margin-bottom-large {
+	margin-bottom: 75px;
+}
+
+.margin-botom-small{
+	margin-bottom: 20px;
+}
+
 // Project styles
 // ------------------------------
-.border-generic
-{
-	border: 2px solid $border-color;
+.border-generic {
+	border: 2px solid $code58-blue;
 }
-.project-title
-{
+
+.project-title {
 	margin: 0 0 22px;
 }
-.navigation
-{
+
+.navigation {
 	display: inline;
 	float: right;
-	border: 2px solid $border-color;
-	background: $border-color;
+	border: 2px solid $code58-blue;
+	background: $code58-blue;
 	border-radius: 5px;
 	color: #fff;
 	font-size: 1.25em;
 	line-height: 0.7em;
-	margin: -5px 5px 10px 0;
-	padding: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	padding: 2px 8px;
 }
-.navigation:first-child
-{
+
+.navigation:first-child {
 	margin-right: 0;
 }
-.navigation:hover
-{
+
+.navigation:hover {
 	color: #fff;
 	//transion and more styles in here
 }
-// ------------------------------
+
 // buttons styles
 // ------------------------------
-button, .button
-{
+button, .button {
 	box-shadow: none;
 }
-.button-large
-{
+
+.button-large {
 	width: 150px;
 }
-.button-medium
-{
-	width: 110px;
-}
 
-// ------------------------------
-// Custom separator styles
-// ------------------------------
-.services-separator
-{
-	margin-top: 13px;
-	margin-bottom: 14px;
-}
-.project-separator
-{
-	margin-top: 18px;
-	margin-bottom: 14px;
-}
-.pricing-table-separator
-{
-	margin-top: 19px;
-	margin-bottom: 17px;
-}
-.call-to-action-separator
-{
-	margin-top: 20px;
-	margin-bottom: 14px;
+.button-medium {
+	width: 110px;
 }

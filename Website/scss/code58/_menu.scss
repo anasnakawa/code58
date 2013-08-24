@@ -1,17 +1,32 @@
 // ------------------------------
-// Main menu
+// top navigation menu
 // ------------------------------
-.main-menu
-{
-	border-top: 8px solid $border-color;
-	a{
-		padding: 60px 20px 40px;
-		display: block;
-		float: left;
+
+// loading required modules
+// ------------------------
+@import "compass/css3";
+
+%common-nav-anchor {
+	display: block;
+	float: left;
+}
+
+.main-menu {
+	border-top: 8px solid $code58-blue;
+
+	.brand {
+		@extend %common-nav-anchor;
+		padding: 60px 20px 0;
 	}
 
-	a.active{
-		background: $border-color;
-		color: #fff;
+	.nav a {
+		@extend %common-nav-anchor;
+		@include transition(background-color .2s);
+		padding: 60px 20px 40px;
+		&.active,
+		&:hover {
+			background: $code58-blue;
+			color: #fff;	
+		}
 	}
 }

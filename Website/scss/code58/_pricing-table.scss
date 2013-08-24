@@ -27,7 +27,7 @@ $price-table-premium-dark-color: #2c3e50;
 // ------------------------------
 .pricing-table {
 	
-	@include rounded;
+	@include rounded(10px);
 
 	.price {
 		font-size: 2.25em;
@@ -41,28 +41,38 @@ $price-table-premium-dark-color: #2c3e50;
 			font-size: 0.5em;
 		}
 	}
+
 	.title {
 		@include rounded-border(10px, 10px, 0, 0);
 	}
 
 	.cta-button {
-	@include rounded-border(0, 0, 10px, 10px);
+		@include rounded-border(0, 0, 10px, 10px);
 	}
 
-	button,.pricing-table .button {
-	border: none;
-	box-shadow: none;
-	border-radius: 5px;
-	width: 150px;
-	font-size: 1.125em;
+	button,
+	.pricing-table .button {
+		border: none;
+		box-shadow: none;
+		border-radius: 5px;
+		width: 150px;
+		font-size: 1.125em;
+	}
+
+	.icon-ok {
+		color: $code58-green-ocean;
+	}
+
+	.icon-remove {
+		color: $code58-red;
 	}
 }
 
-.special-price{
+.special-price {
 	font-size: 3.75em;
 }
-.title > h3
-{
+
+.title > h3 {
 	color:#FFF;
 	margin:0;
 }
@@ -70,19 +80,54 @@ $price-table-premium-dark-color: #2c3e50;
 // ------------------------------
 // Price table - custom style for each one
 // ------------------------------
-.student.pricing-table{border-color: $price-table-student-light-color;}
+.student.pricing-table {
+	border-color: $price-table-student-light-color;
+}
+
 .student.pricing-table .title,
-.student .button{background-color: $price-table-student-light-color;}
-.student.pricing-table .price{background-color: $price-table-student-dark-color;}
-.standard.pricing-table{border-color: $price-table-standard-light-color;}
+.student .button {
+	background-color: $price-table-student-light-color;
+}
+
+.student.pricing-table .price {
+	background-color: $price-table-student-dark-color;
+}
+
+.standard.pricing-table {
+	border-color: $price-table-standard-light-color;
+}
+
 .standard.pricing-table .title,
-.standard .button{background-color: $price-table-standard-light-color;}
-.standard.pricing-table .price{background-color: $price-table-standard-dark-color;}
-.professional.pricing-table{border-color: $price-table-professional-light-color;}
+.standard .button {
+	background-color: $price-table-standard-light-color;
+}
+
+.standard.pricing-table .price {
+	background-color: $price-table-standard-dark-color;
+}
+
+.professional.pricing-table {
+	border-color: $price-table-professional-light-color;
+}
+
 .professional.pricing-table .title,
-.professional .button{background-color: $price-table-professional-light-color;}
-.professional.pricing-table .price{background-color: $price-table-professional-dark-color;}
-.premium.pricing-table{border-color: $price-table-premium-light-color;}
+.professional .button {
+	background-color: $price-table-professional-light-color;
+}
+
+.professional.pricing-table .price {
+	background-color: $price-table-professional-dark-color;
+}
+
+.premium.pricing-table {
+	border-color: $price-table-premium-light-color;
+}
+
 .premium.pricing-table .title,
-.premium .button{background-color: $price-table-premium-light-color;}
-.premium.pricing-table .price{background-color: $price-table-premium-dark-color;}
+.premium .button {
+	background-color: $price-table-premium-light-color;
+}
+
+.premium.pricing-table .price {
+	background-color: $price-table-premium-dark-color;
+}

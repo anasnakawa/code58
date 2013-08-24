@@ -21,7 +21,7 @@
 	
 	// container
 	// ---------
-	border: 2px solid $border-color;
+	border: 2px solid $code58-blue;
 	position: relative;
 
 	// navigation buttons
@@ -31,7 +31,7 @@
 		@include transition(0.3s opacity);
 		@include opacity(0);
 		@include border-radius(40px);
-		background-color: rgba($border-color, 0.5);
+		background-color: rgba($code58-blue, 0.5);
 		width: 60px;
 	}
 
@@ -66,7 +66,7 @@
 		width: 100%;
 
 		.orbit-progress {
-			background-color: rgba($border-color, 0.5);
+			background-color: rgba($code58-blue, 0.5);
 
 		}
 	}
@@ -83,7 +83,7 @@
 			bottom: auto;
 			height: auto;
 			color: white;
-			background-color: rgba($border-color, 0.5);
+			background-color: rgba($code58-blue, 0.5);
 			
 			@include border-radius(5px);
 		}
@@ -113,7 +113,7 @@
 
 	li {
 		background-color: transparent;
-		border-color: $border-color;
+		border-color: $code58-blue;
 		@include opacity(0.5);
 		cursor: pointer;
 

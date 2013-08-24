@@ -5,10 +5,21 @@
 // ------------------------------
 // Handy Sass Mixins
 // ------------------------------
-@mixin rounded($radius: 10px){
+@mixin rounded($radius: 5px){
 	border-radius: $radius;
 }
 
-@mixin rounded-border($tl: 10px, $tr: 10px, $br:10px, $bl: 10px){
+@mixin rounded-border($tl: 5px, $tr: 5px, $br:5px, $bl: 5px){
 	border-radius: $tl $tr $br $bl;
+}
+
+@mixin headers {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@content;
+	}
 }
