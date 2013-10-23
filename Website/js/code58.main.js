@@ -14,7 +14,7 @@
 	// initialize foundation plugins
 	// -----------------------------
 	$(document).foundation();
-
+	$('.gallery-05').carousel({ visible: 4, itemMinWidth: 200, itemMargin: 13 });
 	// hacking orbit
 	// -------------
 	/*
@@ -31,3 +31,4 @@
 	// */
 
 })(jQuery);
+
