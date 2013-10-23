@@ -2630,6 +2630,11 @@ hr {
   color: #fff;
 }
 
+a .icon-angle-right:before,
+a .icon-angle-left:before {
+  cursor: pointer;
+}
+
 /* line 94, ../scss/code58/_base.scss */
 button, .button {
   box-shadow: none;

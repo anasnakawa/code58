@@ -14,7 +14,7 @@
 	// initialize foundation plugins
 	// -----------------------------
 	$(document).foundation();
-	$('.gallery-05').carousel({ visible: 4, itemMinWidth: 200, itemMargin: 13 });
+	
 	// hacking orbit
 	// -------------
 	/*
@@ -29,6 +29,10 @@
 			$icon.appendTo( $self );
 		});
 	// */
+	
+	// initialize carousel for projects section
+	// -----------------------------
+	$('.crsl-items').carousel({ visible: 4, itemMinWidth: 200, itemMargin: 13 });
 
 })(jQuery);
 

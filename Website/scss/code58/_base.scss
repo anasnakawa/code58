@@ -58,6 +58,7 @@ hr {
 
 // Project styles
 // ------------------------------
+// ToDo MoeS: Try to re-write the scss .navigation
 .border-generic {
 	border: 2px solid $code58-blue;
 }
@@ -87,6 +88,11 @@ hr {
 .navigation:hover {
 	color: #fff;
 	//transion and more styles in here
+}
+
+a .icon-angle-right:before,
+a .icon-angle-left:before {
+	cursor: pointer;
 }
 
 // buttons styles
