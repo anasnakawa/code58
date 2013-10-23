@@ -7,6 +7,7 @@
 // ------------------------------
 // initialize foundation plugins
 // hacking orbit
+// initialize carousel for projects section
 // ------------------------------
 
 (function($) {
@@ -29,7 +30,7 @@
 			$icon.appendTo( $self );
 		});
 	// */
-	
+
 	// initialize carousel for projects section
 	// -----------------------------
 	$('.crsl-items').carousel({ visible: 4, itemMinWidth: 200, itemMargin: 13 });
